@@ -75,3 +75,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+footer {
+  background: rgb(15, 51, 95);
+  background: linear-gradient(225deg, rgba(15, 51, 95, 1) 0%, rgba(1, 167, 225, 1) 100%);
+}
