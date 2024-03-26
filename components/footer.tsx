@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <>
-            <div className="container mx-auto -bottom-9 absolute lg:block hidden">
-                <div className="bg-[url('/img/top-footer.png')] h-56 w-full bg-no-repeat bg-contain bg-center -mb-20">
+            <div className="container mx-auto absolute 2xl:hidden lg:block hidden flex justify-center">
+                <div className="bg-[url('/img/top-footer.png')] h-56 w-full bg-no-repeat bg-contain bg-center -mt-40">
                 </div>
             </div>
             <footer className="bg-footer bg-no-repeat w-full lg:rounded-t-[4rem]">
