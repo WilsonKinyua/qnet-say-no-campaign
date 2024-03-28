@@ -33,6 +33,7 @@ export default function Navbar() {
                                 <ListItem
                                     title={"About Us"}
                                     href={""}
+                                    key={i}
                                 >
                                     {"Learn more about our mission, vision, and values."}
                                 </ListItem>
@@ -48,6 +49,7 @@ export default function Navbar() {
                                 <ListItem
                                     title={"FAQs"}
                                     href={""}
+                                    key={i}
                                 >
                                     {"Find answers to frequently asked questions."}
                                 </ListItem>

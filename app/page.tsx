@@ -19,8 +19,16 @@ export default function Home() {
             </Link>
             <Navbar />
           </div>
+          <div className="w-full h-full py-10 ">
+            <video
+              className="border-gradient rounded-xl"
+              preload="auto" >
+              <source src="/videos/1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
-    </main >
+    </main>
   );
 }
