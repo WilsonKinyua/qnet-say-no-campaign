@@ -1,7 +1,9 @@
 "use client"
 
 import Navbar from "@/components/navbar";
-import { Hand, Handshake, Ribbon } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Hand, Handshake, Ribbon, SquarePlay } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -187,6 +189,53 @@ export default function Home() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="mt-20">
+          <div className="flex justify-between mb-10">
+            <h2 className="text-2xl font-bold text-orange">
+              Insights & Updates
+            </h2>
+            <Link href="/" className="underline hover:text-orange">
+              More Updates <ArrowRight className="h-4 w-4 inline-block" />
+            </Link>
+          </div>
+          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+            {Array.from({ length: 4 }).map((_, i) => (
+              <div className="bg-white rounded-xl">
+                <Link key={i} href="/">
+                  <Image
+                    src="/img/say-no-campaign-2023-1.svg"
+                    alt="picture of saying stop human trafficking"
+                    width={150}
+                    height={150}
+                    className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
+                    loader={({ src }) => src}
+                  />
+                  <div className="p-5">
+                    <p className="text-xs">
+                      The Independent Nigeria
+                    </p>
+                    <hr className="border-b border-orange mt-3" />
+                    <Badge className="bg-orange hover:bg-orange text-white gap-2 rounded-none rounded-b-sm mb-3">
+                      <SquarePlay
+                        className="h-4 w-4"
+                      />
+                      English
+                    </Badge>
+                    <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300">
+                      QNET Launches ‘Say No’ Campaign to Strengthen Fight Against Human Trafficking
+                    </h4>
+                    <hr className="border-b border-orange mb-3" />
+                    <Button
+                      className="rounded-full bg-mainBlue text-white hover:bg-orange transition duration-300"
+                    >
+                      Read More <ArrowRight className="h-4 w-4 inline-block" />
+                    </Button>
+                  </div>
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </div>
