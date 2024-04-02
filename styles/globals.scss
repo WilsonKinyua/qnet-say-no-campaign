@@ -82,13 +82,23 @@ footer {
   background: linear-gradient(225deg, rgba(15, 51, 95, 1) 0%, rgba(1, 167, 225, 1) 100%);
 }
 
-.button-gradient {
+.main-gradient {
   background: rgb(0, 157, 101);
   background: linear-gradient(225deg, rgba(0, 157, 101, 1) 0%, rgba(1, 167, 225, 1) 100%);
+}
+
+.bg-gradient {
+  background: rgb(3, 195, 241);
+  background: linear-gradient(0deg, rgba(3, 195, 241, 0.07597601540616246) 0%, rgba(4, 107, 170, 0.731748949579832) 100%);
 }
 
 .border-gradient {
   border: 7px solid;
   border-image: linear-gradient(225deg, rgba(0, 157, 101, 1) 0%, rgba(1, 167, 225, 1) 100%);
   border-image-slice: 1;
+}
+
+.bg-gradient-black {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.07597601540616246) 0%, rgba(0, 0, 0, 1) 100%);
 }

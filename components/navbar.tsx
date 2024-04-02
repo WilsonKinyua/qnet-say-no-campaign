@@ -87,7 +87,7 @@ export default function Navbar() {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Button
-                        className="w-full button-gradient rounded-full py-3 px-5"
+                        className="w-full main-gradient rounded-full py-3 px-5"
                         asChild
                     >
                         <Link href="/">Get Involved</Link>

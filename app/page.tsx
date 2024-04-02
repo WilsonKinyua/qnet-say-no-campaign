@@ -109,6 +109,31 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div className="main-gradient rounded-xl">
+          <div className="bg-gradient-black rounded-xl">
+            <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
+              <Image
+                src="/img/man.svg"
+                alt="picture of saying stop human trafficking"
+                width={150}
+                height={150}
+                className="h-full w-full lg:rounded-r-xl object-cover"
+                loader={({ src }) => src}
+              />
+              <div className="space-y-10 text-white bg-gradient p-16">
+                <h2 className="text-3xl font-bold my-10">
+                  Empowering Communities, Eradicating Exploitation
+                </h2>
+                <p className="font-medium">
+                  This initiative emerges from a profound understanding of the urgent need to combat the growing trend of fake job scams that exploit the good name of reputable businesses to perpetrate human trafficking and other forms of illegal cross-border activities.
+                </p>
+                <p className="font-medium">
+                  We believe that no one actor can tackle this challenge on their own. This is why the Say NO! campaign is galvanizing the efforts of private, public and multilateral stakeholders to sensitize and support the communities that are most vulnerable to these vices in Africa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );
