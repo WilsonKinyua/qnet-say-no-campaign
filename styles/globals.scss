@@ -86,6 +86,7 @@ footer {
   background: rgb(0, 157, 101);
   background: linear-gradient(225deg, rgba(0, 157, 101, 1) 0%, rgba(1, 167, 225, 1) 100%);
 }
+
 .main-gradient-opacity-70 {
   background: rgb(0, 157, 101);
   background: linear-gradient(225deg, rgba(0, 157, 101, 1) 0%, rgba(1, 167, 225, 0.6) 100%);
@@ -96,13 +97,27 @@ footer {
   background: linear-gradient(0deg, rgba(3, 195, 241, 0.07597601540616246) 0%, rgba(4, 107, 170, 0.731748949579832) 100%);
 }
 
-// .border-gradient {
-//   border: 7px solid;
-//   border-image: linear-gradient(225deg, rgba(0, 157, 101, 1) 0%, rgba(1, 167, 225, 1) 100%);
-//   border-image-slice: 1;
-// }
-
 .bg-gradient-black {
   background: rgb(0, 0, 0);
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.07597601540616246) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.slide-down-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.slide-down-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.slide-down-exit {
+  opacity: 1;
+}
+
+.slide-down-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
 }
