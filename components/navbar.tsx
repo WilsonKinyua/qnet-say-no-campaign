@@ -57,11 +57,10 @@ export default function Navbar() {
                         <NavigationMenuContent>
                             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
                                 {Array.from({ length: 2 }).map((_, i) => (
-                                    <Link href="/faqs" passHref>
+                                    <Link href="/faqs" key={i} passHref>
                                         <ListItem
                                             title={"FAQs"}
                                             href={""}
-                                            key={i}
                                         >
                                             {"Find answers to frequently asked questions."}
                                         </ListItem>
