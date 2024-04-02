@@ -38,7 +38,7 @@ export default function Home() {
           <div className="flex justify-center my-10">
             <div className="bg-[url('/img/bg-video.svg')] h-full w-full bg-no-repeat bg-contain bg-center flex justify-center items-center">
               <Dialog>
-                <DialogTrigger><CirclePlay className="h-20 w-20 text-white hover:text-orange transition duration-500 cursor-pointer lg:my-64 my-40 motion-safe:animate-bounce" /></DialogTrigger>
+                <DialogTrigger><CirclePlay className="h-20 w-20 text-white hover:text-orange transition duration-500 cursor-pointer lg:my-64 my-20 motion-safe:animate-bounce" /></DialogTrigger>
                 <DialogContent
                   className='w-[90%] h-[90%] flex justify-center items-center m-0 p-0'
                 >
