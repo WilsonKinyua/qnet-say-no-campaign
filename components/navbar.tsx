@@ -69,7 +69,7 @@ export default function Navbar() {
                         </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link href="/" legacyBehavior passHref>
+                        <Link href="/insights" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                 Media Centre
                             </NavigationMenuLink>
@@ -83,7 +83,7 @@ export default function Navbar() {
                         </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link href="/" legacyBehavior passHref>
+                        <Link href="/insights" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                 News Room
                             </NavigationMenuLink>
@@ -135,7 +135,7 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                    <Link href="/insights" className="text-lg font-semibold text-mainBlue hover:text-orange">
                                         Media Centre
                                     </Link>
                                 </li>
@@ -145,7 +145,7 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                    <Link href="/insights" className="text-lg font-semibold text-mainBlue hover:text-orange">
                                         News Room
                                     </Link>
                                 </li>
