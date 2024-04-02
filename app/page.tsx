@@ -219,7 +219,7 @@ export default function Home() {
         </div>
         <div className="mt-20">
           <div className="flex justify-between mb-10">
-            <h2 className="text-2xl font-bold text-orange">
+            <h2 className="lg:text-2xl font-bold text-orange">
               Insights & Updates
             </h2>
             <Link href="/" className="underline hover:text-orange">
@@ -228,7 +228,7 @@ export default function Home() {
           </div>
           <div className="border border-gray-300 p-5 rounded-xl">
             <Swiper
-              slidesPerView={4}
+              slidesPerView={1}
               spaceBetween={20}
               pagination={{
                 clickable: true,
