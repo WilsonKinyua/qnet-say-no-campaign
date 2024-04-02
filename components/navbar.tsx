@@ -17,12 +17,10 @@ import {
 } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 import Link from "next/link";
-import React, { useState } from "react"
+import React from "react"
 import { Button } from "./ui/button";
-import { Menu, Minus, Plus } from "lucide-react";
+import { Menu, } from "lucide-react";
 export default function Navbar() {
-    const [activeDropdown, setActiveDropdown] = useState("");
-
     return (
         <>
             <NavigationMenu

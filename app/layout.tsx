@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="bg-orange py-2 text-white">
           <div className="container mx-auto flex justify-center">
-            <p>Report Violations at Whatsapp Hotline: <a href="tel:+233256630005" className="font-black text-lg">+ 233 256630005</a></p>
+            <p className="text-xs">Report Violations at Whatsapp Hotline: <a href="tel:+233256630005" className="font-black">+ 233 256630005</a></p>
           </div>
         </div>
         {children}
