@@ -154,12 +154,13 @@ export default function Navbar() {
                                         Contact Us
                                     </Link>
                                 </li>
-                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
-                                        Get Involved
-                                    </Link>
-                                </li>
                             </ul>
+                            <Button
+                                className="w-full main-gradient rounded-full py-3 px-5"
+                                asChild
+                            >
+                                <Link href="/">Get Involved</Link>
+                            </Button>
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>
