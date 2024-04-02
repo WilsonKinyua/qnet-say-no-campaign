@@ -13,15 +13,16 @@ import {
     SheetContent,
     SheetDescription,
     SheetHeader,
-    SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 import Link from "next/link";
-import React from "react"
+import React, { useState } from "react"
 import { Button } from "./ui/button";
-import { Menu } from "lucide-react";
+import { Menu, Minus, Plus } from "lucide-react";
 export default function Navbar() {
+    const [activeDropdown, setActiveDropdown] = useState("");
+
     return (
         <>
             <NavigationMenu
@@ -118,8 +119,49 @@ export default function Navbar() {
                 </SheetTrigger>
                 <SheetContent side={"left"}>
                     <SheetHeader>
-                        <SheetDescription>
-
+                        <SheetDescription className="text-left">
+                            <ul className="my-10">
+                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
+                                    <a href="/" className="text-lg font-semibold text-mainBlue hover:text-orange ">
+                                        Home
+                                    </a>
+                                </li>
+                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
+                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                        About Us
+                                    </Link>
+                                </li>
+                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
+                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                        FAQs
+                                    </Link>
+                                </li>
+                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
+                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                        Media Centre
+                                    </Link>
+                                </li>
+                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
+                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                        Resources
+                                    </Link>
+                                </li>
+                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
+                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                        News Room
+                                    </Link>
+                                </li>
+                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
+                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                        Contact Us
+                                    </Link>
+                                </li>
+                                <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
+                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                        Get Involved
+                                    </Link>
+                                </li>
+                            </ul>
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>
