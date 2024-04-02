@@ -109,27 +109,82 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="main-gradient rounded-xl">
-          <div className="bg-gradient-black rounded-xl">
-            <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
-              <Image
-                src="/img/man.svg"
-                alt="picture of saying stop human trafficking"
-                width={150}
-                height={150}
-                className="h-full w-full lg:rounded-r-xl object-cover"
-                loader={({ src }) => src}
-              />
-              <div className="space-y-10 text-white bg-gradient p-16">
-                <h2 className="text-3xl font-bold my-10">
-                  Empowering Communities, Eradicating Exploitation
-                </h2>
-                <p className="font-medium">
-                  This initiative emerges from a profound understanding of the urgent need to combat the growing trend of fake job scams that exploit the good name of reputable businesses to perpetrate human trafficking and other forms of illegal cross-border activities.
-                </p>
-                <p className="font-medium">
-                  We believe that no one actor can tackle this challenge on their own. This is why the Say NO! campaign is galvanizing the efforts of private, public and multilateral stakeholders to sensitize and support the communities that are most vulnerable to these vices in Africa.
-                </p>
+        <div className="bg-white rounded-xl">
+          <div className="main-gradient rounded-xl">
+            <div className="bg-gradient-black rounded-xl">
+              <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
+                <Image
+                  src="/img/man.svg"
+                  alt="picture of saying stop human trafficking"
+                  width={150}
+                  height={150}
+                  className="h-full w-full lg:rounded-r-xl object-cover"
+                  loader={({ src }) => src}
+                />
+                <div className="space-y-10 text-white bg-gradient lg:p-16 p-5 rounded-r-xl">
+                  <h2 className="lg:text-3xl text-xl font-bold my-10">
+                    Empowering Communities, Eradicating Exploitation
+                  </h2>
+                  <p className="font-medium">
+                    This initiative emerges from a profound understanding of the urgent need to combat the growing trend of fake job scams that exploit the good name of reputable businesses to perpetrate human trafficking and other forms of illegal cross-border activities.
+                  </p>
+                  <p className="font-medium">
+                    We believe that no one actor can tackle this challenge on their own. This is why the Say NO! campaign is galvanizing the efforts of private, public and multilateral stakeholders to sensitize and support the communities that are most vulnerable to these vices in Africa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h2 className="text-3xl font-bold text-center my-10 text-orange">
+            Campaign Partners
+          </h2>
+          <div className="lg:flex justify-center pb-10">
+            <div className="lg:border-t lg:border-r border-orange p-10 lg:w-1/3">
+              <h4 className="text-gray-400 mb-5 text-sm uppercase">Public service campaign by:</h4>
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/img/logos/1.svg"
+                  alt="qnet logo"
+                  width={150}
+                  height={150}
+                  className="h-16 object-contain cursor-pointer hover:border-orange border transition duration-300 border-gray-100 rounded-sm"
+                  loader={({ src }) => src}
+                />
+              </a>
+            </div>
+            <div className="border-t border-orange p-10 lg:w-1/3">
+              <h4 className="text-gray-400 mb-5 text-sm uppercase">Supported by:</h4>
+              <div className="flex gap-2">
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/img/logos/4.svg"
+                    alt="qnet logo"
+                    width={150}
+                    height={150}
+                    className="h-16 object-contain cursor-pointer hover:border-orange border transition duration-300 rounded-sm"
+                    loader={({ src }) => src}
+                  />
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/img/logos/2.svg"
+                    alt="qnet logo"
+                    width={150}
+                    height={150}
+                    className="h-16 object-contain cursor-pointer hover:border-orange border transition duration-300 rounded-sm"
+                    loader={({ src }) => src}
+                  />
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/img/logos/3.svg"
+                    alt="qnet logo"
+                    width={150}
+                    height={150}
+                    className="h-16 object-contain cursor-pointer hover:border-orange border transition duration-300 rounded-sm"
+                    loader={({ src }) => src}
+                  />
+                </a>
               </div>
             </div>
           </div>
