@@ -1,15 +1,19 @@
 "use client"
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import Navbar from "@/components/navbar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Hand, Handshake, Ribbon, SquarePlay } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 export default function Home() {
   return (
-    <main className="mb-80">
+    <main className="mb-52">
       <div className="bg-mainBlue">
         <div className="container mx-auto">
           <div className="flex justify-between items-center pt-5">
@@ -200,42 +204,73 @@ export default function Home() {
               More Updates <ArrowRight className="h-4 w-4 inline-block" />
             </Link>
           </div>
-          <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
-            {Array.from({ length: 4 }).map((_, i) => (
-              <div className="bg-white rounded-xl">
-                <Link key={i} href="/">
-                  <Image
-                    src="/img/say-no-campaign-2023-1.svg"
-                    alt="picture of saying stop human trafficking"
-                    width={150}
-                    height={150}
-                    className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
-                    loader={({ src }) => src}
-                  />
-                  <div className="p-5">
-                    <p className="text-xs">
-                      The Independent Nigeria
-                    </p>
-                    <hr className="border-b border-orange mt-3" />
-                    <Badge className="bg-orange hover:bg-orange text-white gap-2 rounded-none rounded-b-sm mb-3">
-                      <SquarePlay
-                        className="h-4 w-4"
+          <div className="border border-gray-300 p-5 rounded-xl">
+            <Swiper
+              slidesPerView={4}
+              spaceBetween={20}
+              pagination={{
+                clickable: true,
+              }}
+              autoplay={{
+                delay: 10000,
+                disableOnInteraction: false,
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 20,
+                },
+              }}
+              navigation={true}
+              modules={[Navigation, Pagination, Autoplay]}
+              className="mySwiper"
+            >
+              {Array.from({ length: 16 }).map((_, i) => (
+                <SwiperSlide>
+                  <div key={i} className="bg-white rounded-xl mb-16">
+                    <Link href="/">
+                      <Image
+                        src="/img/say-no-campaign-2023-1.svg"
+                        alt="picture of saying stop human trafficking"
+                        width={150}
+                        height={150}
+                        className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
+                        loader={({ src }) => src}
                       />
-                      English
-                    </Badge>
-                    <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300">
-                      QNET Launches ‘Say No’ Campaign to Strengthen Fight Against Human Trafficking
-                    </h4>
-                    <hr className="border-b border-orange mb-3" />
-                    <Button
-                      className="rounded-full bg-mainBlue text-white hover:bg-orange transition duration-300"
-                    >
-                      Read More <ArrowRight className="h-4 w-4 inline-block" />
-                    </Button>
+                      <div className="p-5">
+                        <p className="text-xs">
+                          The Independent Nigeria
+                        </p>
+                        <hr className="border-b border-orange mt-3" />
+                        <Badge className="bg-orange hover:bg-orange text-white gap-2 rounded-none rounded-b-sm mb-3">
+                          <SquarePlay
+                            className="h-4 w-4"
+                          />
+                          English
+                        </Badge>
+                        <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300">
+                          QNET Launches ‘Say No’ Campaign to Strengthen Fight Against Human Trafficking
+                        </h4>
+                        <hr className="border-b border-orange mb-3" />
+                        <Button
+                          className="rounded-full bg-mainBlue text-white hover:bg-orange transition duration-300"
+                        >
+                          Read More <ArrowRight className="h-4 w-4 inline-block" />
+                        </Button>
+                      </div>
+                    </Link>
                   </div>
-                </Link>
-              </div>
-            ))}
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>
