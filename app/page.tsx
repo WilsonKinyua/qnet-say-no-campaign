@@ -4,7 +4,15 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import Navbar from "@/components/navbar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Hand, Handshake, Ribbon, SquarePlay } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+import { ArrowRight, CirclePlay, Hand, Handshake, Play, Ribbon, SquarePlay } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import 'swiper/css';
@@ -14,7 +22,7 @@ import 'swiper/css/navigation';
 export default function Home() {
   return (
     <main className="mb-52">
-      <div className="bg-mainBlue">
+      <div className="bg-mainBlue lg:rounded-b-[4rem] lg:pb-10">
         <div className="container mx-auto">
           <div className="flex justify-between items-center pt-5">
             <Link href="/">
@@ -23,18 +31,33 @@ export default function Home() {
                 alt="Qnet Logo"
                 width={150}
                 height={150}
-                className="h-28 object-cover cursor-pointer"
+                className="h-28 object-contain cursor-pointer"
               />
             </Link>
             <Navbar />
           </div>
-          <div className="w-full h-full py-10 ">
-            <video
-              className="border-gradient rounded-xl"
-              preload="auto" >
-              <source src="/videos/1.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className="flex justify-center">
+            <div className="bg-[url('/img/bg-video.svg')] h-full w-full bg-no-repeat bg-contain bg-center flex justify-center items-center">
+              <Dialog>
+                <DialogTrigger><CirclePlay className="h-20 w-20 text-white hover:text-orange transition duration-500 cursor-pointer lg:my-64 my-40" /></DialogTrigger>
+                <DialogContent
+                  className='w-[90%] h-[90%] flex justify-center items-center m-0 p-0'
+                >
+                  <DialogHeader>
+                    <DialogDescription>
+                      <video
+                        preload="auto"
+                        controls
+                        autoPlay
+                      >
+                        <source src="/videos/1.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </DialogDescription>
+                  </DialogHeader>
+                </DialogContent>
+              </Dialog>
+            </div>
           </div>
         </div>
       </div>
