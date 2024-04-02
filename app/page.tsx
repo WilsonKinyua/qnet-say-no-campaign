@@ -9,10 +9,9 @@ import {
   DialogContent,
   DialogDescription,
   DialogHeader,
-  DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { ArrowRight, CirclePlay, Hand, Handshake, Play, Ribbon, SquarePlay } from "lucide-react";
+import { ArrowRight, CirclePlay, Hand, Handshake, Ribbon, SquarePlay } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import 'swiper/css';
@@ -39,7 +38,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="bg-[url('/img/bg-video.svg')] h-full w-full bg-no-repeat bg-contain bg-center flex justify-center items-center">
               <Dialog>
-                <DialogTrigger><CirclePlay className="h-20 w-20 text-white hover:text-orange transition duration-500 cursor-pointer lg:my-64 my-40" /></DialogTrigger>
+                <DialogTrigger><CirclePlay className="h-20 w-20 text-white hover:text-orange transition duration-500 cursor-pointer lg:my-64 my-40 motion-safe:animate-bounce" /></DialogTrigger>
                 <DialogContent
                   className='w-[90%] h-[90%] flex justify-center items-center m-0 p-0'
                 >
@@ -257,8 +256,8 @@ export default function Home() {
               className="mySwiper"
             >
               {Array.from({ length: 16 }).map((_, i) => (
-                <SwiperSlide>
-                  <div key={i} className="bg-white rounded-xl mb-16">
+                <SwiperSlide key={i}>
+                  <div className="bg-white rounded-xl mb-16">
                     <Link href="/">
                       <Image
                         src="/img/say-no-campaign-2023-1.svg"
