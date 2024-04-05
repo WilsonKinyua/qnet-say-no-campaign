@@ -70,7 +70,7 @@ export default function Navbar() {
                         </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link href="/insights" legacyBehavior passHref>
+                        <Link href="/media-center" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                 Media Centre
                             </NavigationMenuLink>
@@ -136,7 +136,7 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/insights" className="text-mainBlue hover:text-orange pl-5">
+                                    <Link href="/media-center" className="text-mainBlue hover:text-orange pl-5">
                                         Media Centre
                                     </Link>
                                 </li>
