@@ -102,6 +102,12 @@ footer {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.07597601540616246) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
+.text-gradient {
+  background: -webkit-linear-gradient(rgb(0, 101, 168), rgb(99, 167, 68));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .slide-down-enter {
   opacity: 0;
   transform: translateY(-20px);

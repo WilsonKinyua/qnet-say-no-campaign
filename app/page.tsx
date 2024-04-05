@@ -23,7 +23,7 @@ export default function Home() {
     <main className="mb-52">
       <div className="bg-mainBlue lg:rounded-b-[4rem] lg:pb-10">
         <div className="container mx-auto">
-          <div className="flex justify-between items-center pt-5">
+          <div className="flex lg:gap-20 lg:justify-normal justify-between items-center pt-5">
             <Link href="/">
               <Image
                 src="/img/say-no-campaign-logo_white.svg"
@@ -38,7 +38,7 @@ export default function Home() {
           <div className="flex justify-center my-10">
             <div className="bg-[url('/img/bg-video.svg')] h-full w-full bg-no-repeat bg-contain bg-center flex justify-center items-center">
               <Dialog>
-                <DialogTrigger><CirclePlay className="h-20 w-20 text-white hover:text-orange transition duration-500 cursor-pointer lg:my-64 my-20 motion-safe:animate-bounce" /></DialogTrigger>
+                <DialogTrigger><CirclePlay className="h-20 w-20 text-white hover:text-orange transition duration-500 cursor-pointer lg:my-64 my-20" /></DialogTrigger>
                 <DialogContent
                   className='w-[90%] h-[90%] flex justify-center items-center m-0 p-0'
                 >
@@ -62,22 +62,37 @@ export default function Home() {
       </div>
       <div className="container mx-auto">
         <h2
-          className="text-3xl font-bold text-center my-10 text-orange"
+          className="text-3xl font-bold text-center my-10 text-gradient"
         >
           Mobilizing Against Human Trafficking
         </h2>
-        <div className="grid lg:grid-cols-2 grid-cols-1 items-center bg-white rounded-xl">
-          <p className="p-10">
-            Our campaign has a singular goal: To mobilise stakeholder action against job scams, human trafficking and illegal migration in Africa.
-          </p>
+        <div className="bg-[url('/img/bg-shape.svg')] bg-no-repeat bg-contain h-full w-full lg:block hidden">
+          <div className="grid lg:grid-cols-2 grid-cols-1 items-center py-6">
+            <p className="p-5">
+              Our campaign has a singular goal: To mobilise stakeholder action against job scams, human trafficking and illegal migration in Africa.
+            </p>
+            <Image
+              src="/img/stop.svg"
+              alt="picture of saying stop human trafficking"
+              width={150}
+              height={150}
+              className="h-full w-[78%] rounded-r-xl object-cover cursor-pointer"
+              loader={({ src }) => src}
+            />
+          </div>
+        </div>
+        <div className="bg-white lg:hidden block rounded-xl">
           <Image
-            src="https://images.pexels.com/photos/3907763/pexels-photo-3907763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src="/img/stop-human-trafficking-2.svg"
             alt="picture of saying stop human trafficking"
             width={150}
             height={150}
-            className="h-full w-full lg:rounded-r-xl object-cover cursor-pointer"
+            className="h-full w-full rounded-t-xl object-cover cursor-pointer"
             loader={({ src }) => src}
           />
+          <p className="p-5">
+            Our campaign has a singular goal: To mobilise stakeholder action against job scams, human trafficking and illegal migration in Africa.
+          </p>
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 my-10">
           <Image
@@ -88,7 +103,7 @@ export default function Home() {
             className="h-full w-full rounded-xl object-cover cursor-pointer"
             loader={({ src }) => src}
           />
-          <div className="bg-white rounded-xl text-center space-y-6 border border-mainBlue transition duration-300 p-5">
+          <div className="bg-white rounded-xl text-center space-y-6 transition duration-300 p-5">
             <div className="bg-gray-200 text-orange rounded-full flex items-center justify-center h-12 w-12 my-5 border border-orange hover:bg-transparent transition duration-300 mx-auto">
               <Handshake className="h-8 w-8" />
             </div>
@@ -107,7 +122,7 @@ export default function Home() {
             className="h-full w-full rounded-xl object-cover cursor-pointer"
             loader={({ src }) => src}
           />
-          <div className="bg-white rounded-xl text-center space-y-6 border border-mainBlue transition duration-300 p-5">
+          <div className="bg-white rounded-xl text-center space-y-6 transition duration-300 p-5">
             <div className="bg-gray-200 text-orange rounded-full flex items-center justify-center h-12 w-12 my-5 border border-orange hover:bg-transparent transition duration-300 mx-auto">
               <Ribbon className="h-8 w-8" />
             </div>
@@ -125,7 +140,7 @@ export default function Home() {
             className="h-full w-full rounded-xl object-cover cursor-pointer"
             loader={({ src }) => src}
           />
-          <div className="bg-white rounded-xl text-center space-y-6 border border-mainBlue transition duration-300 p-5">
+          <div className="bg-white rounded-xl text-center space-y-6 transition duration-300 p-5">
             <div className="bg-gray-200 text-orange rounded-full flex items-center justify-center h-12 w-12 my-5 border border-orange hover:bg-transparent transition duration-300 mx-auto">
               <Hand className="h-8 w-8" />
             </div>
@@ -163,7 +178,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <h2 className="text-3xl font-bold text-center my-10 text-orange">
+          <h2 className="text-3xl font-bold text-center my-10 text-gradient">
             Campaign Partners
           </h2>
           <div className="lg:flex justify-center pb-10">

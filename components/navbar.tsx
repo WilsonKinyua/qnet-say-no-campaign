@@ -116,52 +116,54 @@ export default function Navbar() {
                         className="text-white border border-white rounded-md p-2"
                     />
                 </SheetTrigger>
-                <SheetContent side={"left"}>
+                <SheetContent side={"left"} className="p-0">
                     <SheetHeader>
                         <SheetDescription className="text-left">
                             <ul className="my-10">
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <a href="/" className="text-lg font-semibold text-mainBlue hover:text-orange ">
+                                    <a href="/" className="text-mainBlue hover:text-orange pl-5">
                                         Home
                                     </a>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                    <Link href="/" className="text-mainBlue hover:text-orange pl-5">
                                         About Us
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/faqs" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                    <Link href="/faqs" className="text-mainBlue hover:text-orange pl-5">
                                         FAQs
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/insights" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                    <Link href="/insights" className="text-mainBlue hover:text-orange pl-5">
                                         Media Centre
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                    <Link href="/" className="text-mainBlue hover:text-orange pl-5">
                                         Resources
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/insights" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                    <Link href="/insights" className="text-mainBlue hover:text-orange pl-5">
                                         News Room
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/" className="text-lg font-semibold text-mainBlue hover:text-orange">
+                                    <Link href="/" className="text-mainBlue hover:text-orange pl-5">
                                         Contact Us
                                     </Link>
                                 </li>
                             </ul>
-                            <Button
-                                className="w-full main-gradient rounded-full py-3 px-5"
-                                asChild
-                            >
-                                <Link href="/">Get Involved</Link>
-                            </Button>
+                            <div className="mx-5">
+                                <Button
+                                    className="w-full main-gradient rounded-full py-3 px-5"
+                                    asChild
+                                >
+                                    <Link href="/">Get Involved</Link>
+                                </Button>
+                            </div>
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>
