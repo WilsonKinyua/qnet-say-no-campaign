@@ -94,12 +94,11 @@ footer {
 
 .bg-gradient {
   background: rgb(3, 195, 241);
-  background: linear-gradient(0deg, rgba(3, 195, 241, 0.07597601540616246) 0%, rgba(4, 107, 170, 0.731748949579832) 100%);
+  background: linear-gradient(0deg, rgba(3, 195, 241, 0.00597601540616246) 0%, rgba(4, 107, 170, 1) 100%);
 }
 
 .bg-gradient-black {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.07597601540616246) 0%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.03597601540616246) 0%, rgba(0, 0, 0, 0.6) 100%);
 }
 
 .text-gradient {
@@ -126,4 +125,9 @@ footer {
 .slide-down-exit-active {
   opacity: 0;
   transition: opacity 500ms;
+}
+
+
+.my-masonry-grid_column {
+  background-clip: padding-box;
 }
