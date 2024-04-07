@@ -41,6 +41,8 @@ export default function Home() {
             </Link>
             <Navbar />
           </div>
+        </div>
+        <div>
           <div className="flex justify-center my-10">
             <div className="bg-[url('/img/bg-video.svg')] h-full w-full bg-no-repeat bg-contain bg-center flex justify-center items-center">
               <Dialog>
