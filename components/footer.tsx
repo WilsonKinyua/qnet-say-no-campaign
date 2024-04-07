@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, Mail, X } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, PhoneCall, X } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -24,7 +24,7 @@ export default function Footer() {
                             </div>
                             <div className="flex items-center space-x-3">
                                 <span className="bg-white text-black rounded-full p-2 border-8 border-gray-200 hover:bg-orange hover:text-white transition duration-300">
-                                    <Mail className="w-4 h-4" />
+                                    <PhoneCall className="w-4 h-4" />
                                 </span>
                                 <a href="tel:+233256630005" className="hover:text-orange transition duration-300">+ 233 256 630 005</a>
                             </div>
