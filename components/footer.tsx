@@ -9,9 +9,9 @@ export default function Footer() {
                 </div>
             </div>
             <footer className="bg-footer bg-no-repeat w-full lg:rounded-t-[4rem]">
-                <div className="container mx-auto text-white text-center lg:pt-32">
+                <div className="container mx-auto text-white lg:pt-32">
                     <hr className="my-2 border-0 border-t-[0.01rem] border-gray-300" />
-                    <div className="py-8">
+                    <div className="text-center py-8">
                         <p className="lg:px-80">
                             If you know someone who has fallen victim to fake job scams, human trafficking, or illegal migration, send us a message on our WhatsApp hotline or send an email to:
                         </p>
@@ -32,7 +32,7 @@ export default function Footer() {
                     </div>
                     <hr className="my-2 border-0 border-t-[0.01rem] border-gray-300" />
                     <div className="lg:flex justify-between items-center py-5">
-                        <ul className="flex flex-wrap space-x-5">
+                        <ul className="lg:flex grid grid-cols-2 lg:flex-wrap lg:space-x-5">
                             <li>
                                 <Link href="/#empowering" className="hover:text-orange transition duration-300">About Us</Link>
                             </li>
