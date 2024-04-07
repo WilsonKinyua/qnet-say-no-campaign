@@ -94,14 +94,14 @@ export default function Navbar() {
                             </NavigationMenuLink>
                         </Link>
                     </NavigationMenuItem>
-                    <NavigationMenuItem>
+                    {/* <NavigationMenuItem>
                         <Button
                             className="w-full main-gradient rounded-full py-3 px-5"
                             asChild
                         >
                             <Link href="/">Get Involved</Link>
                         </Button>
-                    </NavigationMenuItem>
+                    </NavigationMenuItem> */}
                 </NavigationMenuList>
             </NavigationMenu>
             <Sheet>
@@ -153,14 +153,14 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                             </ul>
-                            <div className="mx-5">
+                            {/* <div className="mx-5">
                                 <Button
                                     className="w-full main-gradient rounded-full py-3 px-5"
                                     asChild
                                 >
                                     <Link href="/">Get Involved</Link>
                                 </Button>
-                            </div>
+                            </div> */}
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>

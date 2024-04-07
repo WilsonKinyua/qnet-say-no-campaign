@@ -53,31 +53,28 @@ export default function Footer() {
                             </li>
                         </ul>
                         <div className="flex items-center space-x-3 lg:mt-0 mt-5">
-                            <a target="_blank" href="" className="bg-transparent text-white rounded-full p-3 border border-white hover:bg-white hover:text-orange transition duration-300">
+                            <a target="_blank" href="https://www.facebook.com/QNETOfficial/" className="bg-transparent text-white rounded-full p-3 border border-white hover:bg-white hover:text-orange transition duration-300">
                                 <Facebook className="w-4 h-4" />
                             </a>
-                            <a target="_blank" href="" className="bg-transparent text-white rounded-full p-3 border border-white hover:bg-white hover:text-orange transition duration-300">
+                            <a target="_blank" href="https://twitter.com/qnetofficial" className="bg-transparent text-white rounded-full p-3 border border-white hover:bg-white hover:text-orange transition duration-300">
                                 <X className="w-4 h-4" />
                             </a>
-                            <a target="_blank" href="" className="bg-transparent text-white rounded-full p-3 border border-white hover:bg-white hover:text-orange transition duration-300">
+                            <a target="_blank" href="https://www.instagram.com/qnetofficial/" className="bg-transparent text-white rounded-full p-3 border border-white hover:bg-white hover:text-orange transition duration-300">
                                 <Instagram className="w-4 h-4" />
-                            </a>
-                            <a target="_blank" href="" className="bg-transparent text-white rounded-full p-3 border border-white hover:bg-white hover:text-orange transition duration-300">
-                                <Linkedin className="w-4 h-4" />
                             </a>
                         </div>
                     </div>
                     <hr className="my-2 border-0 border-t-[0.01rem] border-gray-300" />
-                    <div className="lg:flex justify-between uppercase py-5">
-                        <p>&copy; {new Date().getFullYear()} <a href="" target="_blank" className="hover:text-orange transition duration-300" rel="noopener noreferrer">QNET Ltd</a>. All Rights Reserved</p>
-                        <ul className="lg:flex hidden">
+                    <div className="text-center uppercase py-5">
+                        <p>&copy; {new Date().getFullYear()} <Link href="/" className="hover:text-orange transition duration-300" rel="noopener noreferrer">QNET's Say NO! Campaign</Link>. All Rights Reserved</p>
+                        {/* <ul className="lg:flex hidden">
                             <li className="lg:border-r border-white mr-5 pr-5">
                                 <Link href="" className="hover:text-orange transition duration-300">Terms & Conditions</Link>
                             </li>
                             <li>
                                 <Link href="" className="hover:text-orange transition duration-300">Privacy Statement & Disclaimer</Link>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </footer>

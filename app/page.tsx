@@ -26,14 +26,14 @@ export default function Home() {
     <main className="mb-52">
       <div className="bg-mainBlue lg:rounded-b-[4rem] lg:pb-10">
         <div className="container mx-auto">
-          <div className="flex lg:gap-20 lg:justify-normal justify-between items-center pt-5">
+          <div className="flex lg:gap-40 lg:justify-normal justify-between items-center pt-5">
             <Link href="/">
               <Image
                 src="/img/say-no-campaign-logo_white.svg"
                 alt="Qnet Logo"
                 width={150}
                 height={150}
-                className="h-28 object-contain cursor-pointer"
+                className="lg:h-28 h-10 object-contain cursor-pointer"
               />
             </Link>
             <Navbar />
@@ -43,7 +43,7 @@ export default function Home() {
               <Dialog>
                 <DialogTrigger><CirclePlay className="h-20 w-20 text-white hover:text-orange transition duration-500 cursor-pointer lg:my-64 my-20" /></DialogTrigger>
                 <DialogContent
-                  className='w-[90%] h-[90%] flex justify-center items-center m-0 p-0'
+                  className='lg:w-[90%] lg:h-[90%] h-full w-full flex justify-center items-center m-0 p-0'
                 >
                   <DialogHeader>
                     <DialogDescription>
@@ -79,7 +79,7 @@ export default function Home() {
               alt="picture of saying stop human trafficking"
               width={150}
               height={150}
-              className="h-full w-[78%] rounded-r-xl object-cover cursor-pointer"
+              className="h-[90%] w-[80%] rounded-r-xl object-contain cursor-pointer"
               loader={({ src }) => src}
             />
           </div>
@@ -221,30 +221,22 @@ export default function Home() {
           <div className="lg:flex justify-center pb-10">
             <div className="lg:border-t lg:border-r border-orange p-10 lg:w-1/3">
               <h4 className="text-gray-400 mb-5 text-sm">Public service campaign by:</h4>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/img/logos/1.svg"
-                  alt="qnet logo"
-                  width={150}
-                  height={150}
-                  className="h-16 object-contain cursor-pointer"
-                  loader={({ src }) => src}
-                />
-              </a>
-            </div>
-            <div className="border-t border-orange p-10 lg:w-1/3">
-              <h4 className="text-gray-400 mb-5 text-sm">Supported by:</h4>
-              <div className="flex gap-2">
+              <div className="flex gap-2 items-center">
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <Image
-                    src="/img/logos/4.svg"
+                    src="/img/logos/1.svg"
                     alt="qnet logo"
                     width={150}
                     height={150}
-                    className="h-16 object-contain cursor-pointer"
+                    className="h-24 object-contain cursor-pointer"
                     loader={({ src }) => src}
                   />
                 </a>
+              </div>
+            </div>
+            <div className="border-t border-orange p-10 lg:w-1/3">
+              <h4 className="text-gray-400 mb-5 text-sm">Supported by:</h4>
+              <div className="flex gap-2 items-center">
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <Image
                     src="/img/logos/2.svg"
@@ -262,6 +254,16 @@ export default function Home() {
                     width={150}
                     height={150}
                     className="h-16 object-contain cursor-pointer"
+                    loader={({ src }) => src}
+                  />
+                </a>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/img/logos/4.svg"
+                    alt="qnet logo"
+                    width={150}
+                    height={150}
+                    className="h-24 w-full object-contain cursor-pointer"
                     loader={({ src }) => src}
                   />
                 </a>

@@ -14,14 +14,14 @@ export default function Resources() {
       <div className="bg-[url('/img/insights.svg')] h-full w-full bg-no-repeat bg-cover bg-center lg:rounded-b-[4rem]">
         <div className="main-gradient-opacity-70 lg:rounded-b-[4rem] lg:pb-10">
           <div className="container mx-auto">
-            <div className="flex lg:gap-20 lg:justify-normal justify-between items-center pt-5">
+            <div className="flex lg:gap-40 lg:justify-normal justify-between items-center pt-5">
               <Link href="/">
                 <Image
                   src="/img/say-no-campaign-logo_white.svg"
                   alt="Qnet Logo"
                   width={150}
                   height={150}
-                  className="h-28 object-contain cursor-pointer"
+                  className="lg:h-28 h-10 object-contain cursor-pointer"
                 />
               </Link>
               <Navbar />
