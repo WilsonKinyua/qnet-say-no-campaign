@@ -106,7 +106,7 @@ export default function Home() {
         </div>
         <div className="flex h-full">
           <div className='lg:block hidden'>
-            <Masonry
+            {/* <Masonry
               className="flex mt-5 h-full"
               columnClassName="my-masonry-grid_column"
               breakpointCols={{
@@ -190,7 +190,7 @@ export default function Home() {
                   We aim to reduce victims of illegal migration scams, creating a safer environment through vigilance and education for all individuals.
                 </p>
               </div>
-            </Masonry>
+            </Masonry> */}
           </div>
           <div className='lg:hidden grid'>
             <Cards />
