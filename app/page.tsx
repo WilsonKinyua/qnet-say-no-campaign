@@ -104,7 +104,7 @@ export default function Home() {
             Our campaign has a singular goal: To mobilise stakeholder action against job scams, human trafficking and illegal migration in Africa.
           </p>
         </div>
-        <div className="flex">
+        <div className="flex h-full">
           <div className='lg:block hidden'>
             <Masonry
               className="flex mt-5 h-full"
@@ -196,7 +196,7 @@ export default function Home() {
             <Cards />
           </div>
         </div>
-        <div className="bg-white rounded-xl my-5">
+        <div className="bg-white rounded-xl my-5 h-full">
           <div className="main-gradient rounded-xl" id='empowering'>
             <div className="bg-gradient-black rounded-xl">
               <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
