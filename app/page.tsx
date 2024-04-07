@@ -78,8 +78,8 @@ export default function Home() {
         </h2>
         <div className="bg-[url('/img/bg-shape.svg')] bg-no-repeat bg-contain h-full w-full lg:block hidden">
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center py-6">
-            <p className="p-5">
-              Our campaign has a singular goal: To mobilise stakeholder action against job scams, human trafficking and illegal migration in Africa.
+            <p className="p-5 mx-auto">
+              Our campaign has a singular goal: To <br className='lg:block hidden' /> mobilise stakeholder action against job <br className='lg:block hidden' /> scams, human trafficking and illegal <br className='lg:block hidden' /> migration in Africa.
             </p>
             <Image
               src="/img/stop.svg"
