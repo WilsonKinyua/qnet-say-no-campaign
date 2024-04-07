@@ -34,7 +34,7 @@ export default function Resources() {
         <p className="my-10">
           Welcome to the Resources section, a vital hub with educational materials dedicated to empowering individuals to safeguard against human trafficking. Explore an array of informative resources curated to raise awareness, educate, and equip you with the knowledge needed to recognize and prevent human trafficking.
         </p>
-        <div className="grid grid-cols-4 gap-5 my-10">
+        <div className="grid lg:grid-cols-4 gap-5 my-10">
           {ResourcesList.map((insight, i) => (
             <div key={i} className="bg-white rounded-xl mb-16">
               <a target='_blank' href={insight.url}>
