@@ -396,22 +396,72 @@ export default function MediaCenter() {
             </Tabs>
           </TabsContent>
           <TabsContent value="videos">
-            <div className="grid lg:grid-cols-3 grid-cols-1 gap-5">
-              {Array.from({ length: 8 }).map((_, i) => (
-                <div key={i}>
-                  <iframe
-                    width="100%"
-                    height="280"
-                    src="https://www.youtube.com/embed/CqrS5HU5kSQ?list=PLkTu8F20JaWWNIVEFdyfGArLR4v_mULO8"
-                    title="Be like Kobi | MAMA&#39;S 10 Red Lines to Remember"
-                    frameBorder={0}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                    className='rounded-xl'
-                  ></iframe>
-                </div>
-              ))}
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 mt-10">
+              <div>
+                <iframe
+                  width="100%"
+                  height="280"
+                  src="https://www.youtube.com/embed/CqrS5HU5kSQ?list=PLkTu8F20JaWWNIVEFdyfGArLR4v_mULO8"
+                  title="Be like Kobi | MAMA&#39;S 10 Red Lines to Remember"
+                  frameBorder={0}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className='rounded-xl'
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  width="100%"
+                  height="280"
+                  src="https://www.youtube.com/embed/CqrS5HU5kSQ?list=PLkTu8F20JaWWNIVEFdyfGArLR4v_mULO8"
+                  title="Be like Kobi | MAMA&#39;S 10 Red Lines to Remember"
+                  frameBorder={0}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className='rounded-xl'
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  width="100%"
+                  height="280"
+                  src="https://www.youtube.com/embed/WT9vi1eoIl8"
+                  title="Protect Yourself in this Digital Age with eKYC"
+                  frameBorder={0}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className='rounded-xl'
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  width="100%"
+                  height="280"
+                  src="https://www.youtube.com/embed/kxINI2orFGA"
+                  title="What&#39;s The Truth Behind The QNET Scam?"
+                  frameBorder={0}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className='rounded-xl'
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  width="100%"
+                  height="280"
+                  src="https://www.youtube.com/embed/HxFv6tTkiV4"
+                  title="QNET Answers | Is QNET Legal or a Scam??"
+                  frameBorder={0}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className='rounded-xl'
+                ></iframe>
+              </div>
             </div>
           </TabsContent>
         </Tabs>
