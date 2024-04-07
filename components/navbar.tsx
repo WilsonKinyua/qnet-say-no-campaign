@@ -148,7 +148,7 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/" className="text-mainBlue hover:text-orange pl-5">
+                                    <Link href="/contact" className="text-mainBlue hover:text-orange pl-5">
                                         Contact Us
                                     </Link>
                                 </li>
