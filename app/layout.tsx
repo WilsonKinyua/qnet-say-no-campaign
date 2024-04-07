@@ -16,11 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <div className="bg-orange py-2 text-white">
           <div className="container mx-auto flex justify-center">
-            <p className="text-xs">Report Violations at Whatsapp Hotline: <a href="tel:+233256630005" className="font-black">+ 233 256630005</a></p>
+            <p className="text-xs">Report Violations at Whatsapp Hotline: <a href="https://wa.me/+233256630005" className="font-black">+ 233 256630005</a></p>
           </div>
         </div>
         {children}

@@ -26,7 +26,7 @@ export default function Footer() {
                                 <span className="bg-white text-black rounded-full p-2 border-8 border-gray-200 hover:bg-orange hover:text-white transition duration-300">
                                     <PhoneCall className="w-4 h-4" />
                                 </span>
-                                <a href="tel:+233256630005" className="hover:text-orange transition duration-300">+ 233 256 630 005</a>
+                                <a href="https://wa.me/+233256630005" className="hover:text-orange transition duration-300">+ 233 256 630 005</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ export default function Footer() {
                     </div>
                     <hr className="my-2 border-0 border-t-[0.01rem] border-gray-300" />
                     <div className="text-center uppercase py-5">
-                        <p>&copy; {new Date().getFullYear()} <Link href="/" className="hover:text-orange transition duration-300" rel="noopener noreferrer">QNET's Say NO! Campaign</Link>. All Rights Reserved</p>
+                        <p>&copy; {new Date().getFullYear()} <Link href="/" className="hover:text-orange transition duration-300" rel="noopener noreferrer">QNET&apos;s Say NO! Campaign</Link>. All Rights Reserved</p>
                         {/* <ul className="lg:flex hidden">
                             <li className="lg:border-r border-white mr-5 pr-5">
                                 <Link href="" className="hover:text-orange transition duration-300">Terms & Conditions</Link>

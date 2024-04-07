@@ -22,6 +22,9 @@ import Cards from '@/components/cards';
 import { Insights } from '@/lib/fake-backend';
 
 export default function Home() {
+  function getRandomObjects<T>(array: T[], numObjects: number): T[] {
+    return array.sort(() => Math.random() - 0.5).slice(0, numObjects);
+  }
   return (
     <main className="mb-52">
       <div className="bg-mainBlue lg:rounded-b-[4rem] lg:pb-10">
@@ -309,7 +312,7 @@ export default function Home() {
               modules={[Navigation, Pagination, Autoplay]}
               className="mySwiper"
             >
-              {Insights.slice(0, 10).map((insight, i) => (
+              {getRandomObjects(Insights, 10).map((insight, i) => (
                 <SwiperSlide key={i}>
                   <div className="bg-white rounded-xl mb-16">
                     <a target='_blank' href={insight.url}>
