@@ -116,7 +116,7 @@ export default function Home() {
                 alt="Fostering Collaboration"
                 width={150}
                 height={150}
-                className="h-72 w-full mb-5 rounded-xl object-cover"
+                className="lg:h-72 h-full w-full mb-5 rounded-xl object-contain"
                 loader={({ src }) => src}
               />
               <div className="bg-white mb-5 mx-5 py-16 rounded-xl space-y-6 transition duration-300 p-5">
@@ -169,7 +169,7 @@ export default function Home() {
                   alt="Preventing Exploitation"
                   width={150}
                   height={150}
-                  className="h-72 w-full  mb-5 rounded-xl object-cover cursor-pointer"
+                  className="lg:h-72 h-full w-full mb-5 rounded-xl object-contain"
                   loader={({ src }) => src}
                 />
               </div>
@@ -321,7 +321,7 @@ export default function Home() {
                         alt={insight.title}
                         width={150}
                         height={150}
-                        className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
+                        className="lg:h-60 h-52 w-full rounded-t-xl lg:object-cover object-contain cursor-pointer"
                         loader={({ src }) => src}
                       />
                       <div className="p-5">

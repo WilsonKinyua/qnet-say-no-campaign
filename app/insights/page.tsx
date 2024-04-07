@@ -47,7 +47,7 @@ export default function Insights() {
                       alt={insight.title}
                       width={150}
                       height={150}
-                      className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
+                      className="lg:h-60 h-52 w-full rounded-t-xl object-contain cursor-pointer"
                       loader={({ src }) => src}
                     />
                     <div className="p-5">
@@ -88,7 +88,7 @@ export default function Insights() {
                         alt={insight.title}
                         width={150}
                         height={150}
-                        className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
+                         className="lg:h-60 h-52 w-full rounded-t-xl lg:object-cover object-contain cursor-pointer"
                         loader={({ src }) => src}
                       />
                       <div className="p-5">
@@ -129,7 +129,7 @@ export default function Insights() {
                         alt={insight.title}
                         width={150}
                         height={150}
-                        className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
+                         className="lg:h-60 h-52 w-full rounded-t-xl lg:object-cover object-contain cursor-pointer"
                         loader={({ src }) => src}
                       />
                       <div className="p-5">
