@@ -36,7 +36,7 @@ export default function Resources() {
         </p>
         <div className="grid grid-cols-4 gap-5 my-10">
           {ResourcesList.map((insight, i) => (
-            <div className="bg-white rounded-xl mb-16">
+            <div key={i} className="bg-white rounded-xl mb-16">
               <a target='_blank' href={insight.url}>
                 <Image
                   src={insight.img}

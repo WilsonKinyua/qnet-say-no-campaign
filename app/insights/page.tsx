@@ -40,7 +40,7 @@ export default function Insights() {
           <TabsContent value="all" className="border border-gray-300 p-5 rounded-xl">
             <div className="grid lg:grid-cols-4 grid-cols-1 gap-5">
               {Newsroom.map((insight, i) => (
-                <div className="bg-white rounded-xl mb-16">
+                <div key={i} className="bg-white rounded-xl mb-16">
                   <a target='_blank' href={insight.url}>
                     <Image
                       src={insight.img}
@@ -81,7 +81,7 @@ export default function Insights() {
               {Newsroom
                 .filter(insight => insight.language.toLowerCase() === 'english')
                 .map((insight, i) => (
-                  <div className="bg-white rounded-xl mb-16">
+                  <div key={i} className="bg-white rounded-xl mb-16">
                     <a target='_blank' href={insight.url}>
                       <Image
                         src={insight.img}
@@ -122,7 +122,7 @@ export default function Insights() {
               {Newsroom
                 .filter(insight => insight.language.toLowerCase() === 'french')
                 .map((insight, i) => (
-                  <div className="bg-white rounded-xl mb-16">
+                  <div key={i} className="bg-white rounded-xl mb-16">
                     <a target='_blank' href={insight.url}>
                       <Image
                         src={insight.img}
