@@ -36,7 +36,7 @@ export default function Navbar() {
                             </NavigationMenuLink>
                         </Link>
                     </NavigationMenuItem>
-                    <NavigationMenuItem>
+                    {/* <NavigationMenuItem>
                         <NavigationMenuTrigger>About Us</NavigationMenuTrigger>
                         <NavigationMenuContent>
                             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -51,23 +51,20 @@ export default function Navbar() {
                                 ))}
                             </ul>
                         </NavigationMenuContent>
+                    </NavigationMenuItem> */}
+                    <NavigationMenuItem>
+                        <Link href="/#empowering" legacyBehavior passHref>
+                            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                About Us
+                            </NavigationMenuLink>
+                        </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <NavigationMenuTrigger>FAQs</NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
-                                {Array.from({ length: 2 }).map((_, i) => (
-                                    <Link href="/faqs" key={i} passHref>
-                                        <ListItem
-                                            title={"FAQs"}
-                                            href={""}
-                                        >
-                                            {"Find answers to frequently asked questions."}
-                                        </ListItem>
-                                    </Link>
-                                ))}
-                            </ul>
-                        </NavigationMenuContent>
+                        <Link href="/faqs" legacyBehavior passHref>
+                            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                                FAQs
+                            </NavigationMenuLink>
+                        </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
                         <Link href="/media-center" legacyBehavior passHref>
@@ -91,7 +88,7 @@ export default function Navbar() {
                         </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link href="/" legacyBehavior passHref>
+                        <Link href="/contact" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                 Contact Us
                             </NavigationMenuLink>

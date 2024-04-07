@@ -190,7 +190,7 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-white rounded-xl my-5">
-          <div className="main-gradient rounded-xl">
+          <div className="main-gradient rounded-xl" id='empowering'>
             <div className="bg-gradient-black rounded-xl">
               <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
                 <Image

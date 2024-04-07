@@ -34,13 +34,13 @@ export default function Footer() {
                     <div className="lg:flex justify-between items-center py-5">
                         <ul className="flex flex-wrap space-x-5">
                             <li>
-                                <Link href="" className="hover:text-orange transition duration-300">About Us</Link>
+                                <Link href="/#empowering" className="hover:text-orange transition duration-300">About Us</Link>
                             </li>
                             <li>
-                                <Link href="" className="hover:text-orange transition duration-300">FAQs</Link>
+                                <Link href="/faqs" className="hover:text-orange transition duration-300">FAQs</Link>
                             </li>
                             <li>
-                                <Link href="" className="hover:text-orange transition duration-300">Media Centre</Link>
+                                <Link href="/media-center" className="hover:text-orange transition duration-300">Media Centre</Link>
                             </li>
                             <li>
                                 <Link href="/resources" className="hover:text-orange transition duration-300">Resources</Link>
@@ -49,7 +49,7 @@ export default function Footer() {
                                 <Link href="/insights" className="hover:text-orange transition duration-300">NewsRoom</Link>
                             </li>
                             <li>
-                                <Link href="" className="hover:text-orange transition duration-300">Contact Us</Link>
+                                <Link href="/contact" className="hover:text-orange transition duration-300">Contact Us</Link>
                             </li>
                         </ul>
                         <div className="flex items-center space-x-3 lg:mt-0 mt-5">
