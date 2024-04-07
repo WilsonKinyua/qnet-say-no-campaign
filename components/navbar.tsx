@@ -77,7 +77,7 @@ export default function Navbar() {
                         </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link href="/" legacyBehavior passHref>
+                        <Link href="/resources" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                                 Resources
                             </NavigationMenuLink>
@@ -141,7 +141,7 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="border-b border-gray-200 bg-[#F8F9FA] p-3">
-                                    <Link href="/" className="text-mainBlue hover:text-orange pl-5">
+                                    <Link href="/resources" className="text-mainBlue hover:text-orange pl-5">
                                         Resources
                                     </Link>
                                 </li>

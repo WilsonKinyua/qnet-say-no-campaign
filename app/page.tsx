@@ -19,6 +19,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Cards from '@/components/cards';
+import { Insights } from '@/lib/fake-backend';
 
 export default function Home() {
   return (
@@ -273,7 +274,7 @@ export default function Home() {
             <h2 className="lg:text-2xl font-bold text-gradient">
               Insights & Updates
             </h2>
-            <Link href="/" className="underline hover:text-orange">
+            <Link href="/insights" className="underline hover:text-orange">
               More Updates <ArrowRight className="h-4 w-4 inline-block" />
             </Link>
           </div>
@@ -306,31 +307,31 @@ export default function Home() {
               modules={[Navigation, Pagination, Autoplay]}
               className="mySwiper"
             >
-              {Array.from({ length: 16 }).map((_, i) => (
+              {Insights.slice(0, 10).map((insight, i) => (
                 <SwiperSlide key={i}>
                   <div className="bg-white rounded-xl mb-16">
-                    <Link href="/">
+                    <a target='_blank' href={insight.url}>
                       <Image
-                        src="/img/say-no-campaign-2023-1.svg"
-                        alt="picture of saying stop human trafficking"
+                        src={insight.img}
+                        alt={insight.title}
                         width={150}
                         height={150}
                         className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
                         loader={({ src }) => src}
                       />
                       <div className="p-5">
-                        <p className="text-xs">
-                          The Independent Nigeria
+                        <p className="text-xs capitalize">
+                          {insight.newsMedia}
                         </p>
                         <hr className="border-b border-orange mt-3" />
-                        <Badge className="bg-orange hover:bg-orange text-white gap-2 rounded-none rounded-b-sm mb-3">
+                        <Badge className="bg-orange hover:bg-orange text-white gap-2 rounded-none rounded-b-sm mb-3 uppercase">
                           <SquarePlay
                             className="h-4 w-4"
                           />
-                          English
+                          {insight.language}
                         </Badge>
-                        <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300">
-                          QNET Launches ‘Say No’ Campaign to Strengthen Fight Against Human Trafficking
+                        <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300 h-32">
+                          {insight.title}
                         </h4>
                         <hr className="border-b border-orange mb-3" />
                         <Button
@@ -339,7 +340,7 @@ export default function Home() {
                           Read More <ArrowRight className="h-4 w-4 inline-block" />
                         </Button>
                       </div>
-                    </Link>
+                    </a>
                   </div>
                 </SwiperSlide>
               ))}

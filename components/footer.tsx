@@ -43,10 +43,10 @@ export default function Footer() {
                                 <Link href="" className="hover:text-orange transition duration-300">Media Centre</Link>
                             </li>
                             <li>
-                                <Link href="" className="hover:text-orange transition duration-300">Resources</Link>
+                                <Link href="/resources" className="hover:text-orange transition duration-300">Resources</Link>
                             </li>
                             <li>
-                                <Link href="" className="hover:text-orange transition duration-300">NewsRoom</Link>
+                                <Link href="/insights" className="hover:text-orange transition duration-300">NewsRoom</Link>
                             </li>
                             <li>
                                 <Link href="" className="hover:text-orange transition duration-300">Contact Us</Link>
