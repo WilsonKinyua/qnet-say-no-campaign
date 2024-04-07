@@ -426,15 +426,21 @@ export const Billboards = {
     ],
     nigeria: [
         'img/LAGOS.jpg',
-        'img/Ogun-state.jpg',
-        'img/Ogun-state.jpg',
-        'img/River-state-2.jpg',
-        'img/River-State.jpg'
+        'img/Ogun-state.jpeg',
+        'img/Ogun-state-2.jpeg',
+        'img/River-state-2.jpeg',
+        'img/River-State.jpeg'
     ],
     senegal: [
-        'img/THIES-CENTRE-VILLE-2-.jpg',
-        'img/SAINT-LOUIS2.jpg',
-        'img/MBOUR-2.jpg',
-        'img/DAKAR-COLOBANE-MASALIKOUL.jpg'
+        'img/THIES-CENTRE-VILLE-2.jpeg',
+        'img/SAINT-LOUIS2.jpeg',
+        'img/MBOUR-2.jpeg',
+        'img/DAKAR-COLOBANE-MASALIKOUL.jpeg'
     ]
+}
+
+export const Comic = {
+    Senegal: ['img/comic-2.png', 'img/Wolof.png'],
+    Burkinafaso: ['img/comic.png'],
+    Nigeria: ['img/comic-2.png']
 }
