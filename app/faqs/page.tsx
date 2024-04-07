@@ -1,5 +1,6 @@
 "use client"
 import Navbar from "@/components/navbar";
+import { FAQs } from "@/lib/fake-backend";
 import { CirclePlus, Minus } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -37,7 +38,7 @@ export default function Insights() {
           </p>
         </div>
         <div className="grid grid-cols-1">
-          {Array.from({ length: 16 }).map((_, i) => (
+          {FAQs.map((faq, i) => (
             <div key={i} className="p-4 bg-white mb-5 rounded-xl hover:cursor-pointer">
               <div className="flex">
                 <div className="mr-5">
@@ -53,7 +54,7 @@ export default function Insights() {
                     onMouseEnter={() => setOpenQuestions(i + 1)}
                     onClick={() => setOpenQuestions(openQuestions === i + 1 ? 0 : i + 1)}
                   >
-                    What is human trafficking?
+                    {faq.question}
                   </h2>
                   <CSSTransition
                     in={(openQuestions === null && i + 1 === i + 1) || openQuestions === i + 1}
@@ -62,7 +63,7 @@ export default function Insights() {
                     unmountOnExit
                   >
                     <p className="py-5 text-gray-500">
-                      Human trafficking, as defined in the UN Trafficking in Persons Protocol, involves the recruitment, transportation, transfer, harbouring, or receipt of individuals through various coercive means for exploitation purposes. Human trafficking is a global crime where people are bought and sold for profit. This horrific crime affects everyone, regardless of gender, age, or background. Traffickers exploit vulnerable people, those who are desperate or simply looking for a better life, by using violence, fake employment agencies, and false promises of education or jobs.
+                      {faq.answer}
                     </p>
                   </CSSTransition>
                 </div>

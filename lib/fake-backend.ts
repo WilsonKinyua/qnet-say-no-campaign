@@ -444,3 +444,145 @@ export const Comic = {
     Burkinafaso: ['img/comic.png'],
     Nigeria: ['img/comic-2.png']
 }
+
+export const FAQs = [
+    {
+        question: 'What is human trafficking?',
+        answer: 'Human trafficking, as defined in the UN Trafficking in Persons Protocol,\n' +
+            '                                            involves the recruitment, transportation, transfer, harbouring, or receipt\n' +
+            '                                            of individuals through various coercive means for exploitation purposes.\n' +
+            '                                            Human trafficking is a global crime where people are bought and sold for\n' +
+            '                                            profit. This horrific crime affects everyone, regardless of gender, age, or\n' +
+            '                                            background. Traffickers exploit vulnerable people, those who are desperate\n' +
+            '                                            or simply looking for a better life, by using violence, fake employment\n' +
+            '                                            agencies, and false promises of education or jobs.'
+    },
+    {
+        question: 'What are the most common forms of human trafficking?',
+        answer: 'Human trafficking has a significant global impact, with millions of victims\n' +
+            '                                            worldwide. It encompasses various forms of exploitation, such as sexual\n' +
+            '                                            exploitation, forced labour, forced marriage, forced criminality, domestic\n' +
+            '                                            servitude, and organ harvesting. Victims are forced to work in factories,\n' +
+            '                                            construction sites, or in the agricultural sector with little to no pay and\n' +
+            '                                            often in abusive and inhumane conditions. Some victims are coerced into\n' +
+            '                                            having their organs removed. Others are forced to carry out criminal\n' +
+            '                                            activities such as drug trade, begging, or selling counterfeit goods.  The\n' +
+            '                                                2022 Global Report on Trafficking in Persons shows that 38.7% of\n' +
+            '                                            detected\n' +
+            '                                            victims in 2020 were trafficked for sexual exploitation, 38.8% were\n' +
+            '                                            exploited for forced labour, 10,2% were subjected to forced criminal\n' +
+            '                                            activity, while 0.9% were trafficked for forced marriage, and smaller\n' +
+            '                                            numbers were coerced into organ harvesting and other purposes.'
+    },
+    {
+        question: 'How prevalent is human trafficking in Africa, and what are the different\n' +
+            '                                            forms of exploitation involved?',
+        answer: 'According to the Global\n' +
+            '                                                Slavery Index 2023, Africa has the fourth highest\n' +
+            '                                            prevalence of human trafficking among all the five continents of the world.\n' +
+            '                                            In 2021, an estimated 7 million men, women, and children were trafficked in\n' +
+            '                                            Africa, with a prevalence of 5.2 people trafficked for every thousand\n' +
+            '                                            people. Forced labour was the most common form of exploitation in the region\n' +
+            '                                            at a rate of nearly 3.8 million men, women and children. Forced marriage was\n' +
+            '                                            the second most common form of exploitation at a rate of nearly 3 million\n' +
+            '                                            victims.'
+    },
+    {
+        question: 'What are the key indicators of human trafficking, and how can individuals\n' +
+            '                                            identify potential cases?',
+        answer: 'Identifying trafficking is the first step to stopping it. Understanding the\n' +
+            '                                            signs to look out for could help the most vulnerable people within your\n' +
+            '                                            community. There are some common indicators of human trafficking, such as\n' +
+            '                                            individuals living in inhumane and terrible conditions, working excessively\n' +
+            '                                            long hours for little to no pay, showing signs of physical abuse or\n' +
+            '                                            malnourishment, lacking control over their personal documents, and\n' +
+            '                                            exhibiting fear or reluctance to engage with authorities. Recognizing these\n' +
+            '                                            signs is crucial for identifying potential cases and intervening\n' +
+            '                                            effectively.'
+    },
+    {
+        question: 'What is a job scam?',
+        answer: 'A job scam is a deceitful and fraudulent work offer intended to exploit\n' +
+            '                                            people seeking legitimate employment into giving money, personal information\n' +
+            '                                            or providing free labour. These scams often pose as legitimate employment\n' +
+            '                                            opportunities, enticing unsuspecting individuals with promises of\n' +
+            '                                            high-paying jobs, flexible work arrangements, or career advancement\n' +
+            '                                            prospects.'
+    },
+    {
+        question: 'How can I protect myself from job scams?',
+        answer: 'Recognizing the signs of a job scam is crucial for protecting oneself from\n' +
+            '                                            these fraud schemes. One should be cautious of job offers that promise\n' +
+            '                                            unrealistic salaries, requests for upfront payment for training materials,\n' +
+            '                                            background checks, or other alleged requirements, have vague job\n' +
+            '                                            descriptions and responsibilities, and make promises of immediate employment\n' +
+            '                                            without an interview process. To protect yourself from job scams, it is\n' +
+            '                                            important to verify the legitimacy of the job offer before sharing personal\n' +
+            '                                            information. If you suspect a job offer is a scam, do not share personal\n' +
+            '                                            information or make any payments. Instead, report the scam to local\n' +
+            '                                            authorities and inform others about the potential risks.'
+    },
+    {
+        question: 'What role does education play in preventing and raising awareness about\n' +
+            '                                            human trafficking and job scams?',
+        answer: 'Education is a crucial tool in the fight against human trafficking and job\n' +
+            '                                            scams. It helps increase awareness about the deceptive tactics used by\n' +
+            '                                            traffickers and scammers, empowering individuals to recognize the signs and\n' +
+            '                                            understand their rights. By building resilience and promoting vigilance in\n' +
+            '                                            job-seeking practices, education strengthens the capacity of individuals and\n' +
+            '                                            communities to resist coercion and exploitation. It also helps to inform\n' +
+            '                                            people about the risks associated with fraudulent job offers, thereby\n' +
+            '                                            enabling them to protect themselves from falling victim to such\n' +
+            '                                            exploitation.'
+    },
+    {
+        question: 'How can individuals actively contribute to combating human trafficking and\n' +
+            '                                            supporting victims?',
+        answer: 'Individuals can contribute to combating human trafficking by supporting\n' +
+            '                                            anti-trafficking organizations and campaigns such as the Say NO! Awareness\n' +
+            '                                            Campaign, advocating for policy changes to address trafficking issues,\n' +
+            '                                            reporting suspicious activities to authorities, educating others about the\n' +
+            '                                            risks involved in fraudulent job offers, and promoting a culture of\n' +
+            '                                            vigilance against exploitation within their communities.'
+    },
+    {
+        question: 'How can I get involved in the "Say NO!" campaign?',
+        answer: 'You can get involved in the "Say NO!" campaign by downloading and sharing\n' +
+            '                                            campaign materials with your community, educating others about the risks of\n' +
+            '                                            human trafficking and job scams, and reporting suspicious activities to\n' +
+            '                                            local authorities. Join us in spreading awareness! Visit the "Media Center\n' +
+            '                                            and Resources " section to download campaign materials and learn more about\n' +
+            '                                            the risks of fake job offers and human trafficking. Your engagement makes a\n' +
+            '                                            significant impact.'
+    },
+    {
+        question: 'How does QNET contribute to combating fake job offers and human trafficking?',
+        answer: 'QNET actively supports the fight against fake job offers and human\n' +
+            '                                            trafficking by emphasizing that its business opportunity is not a job but a\n' +
+            '                                            platform for individuals to start their own businesses. This distinction\n' +
+            '                                            helps to prevent individuals from falling prey to scams that promise\n' +
+            "                                            employment opportunities in exchange for payments. Additionally, QNET's\n" +
+            '                                            direct-selling business model is transparent and focuses on retailing\n' +
+            '                                            products and earning commissions based on actual sales. This ensures that\n' +
+            '                                            individuals are not misled into fraudulent schemes that exploit their desire\n' +
+            '                                            for employment.'
+    },
+    {
+        question: 'How does QNET differentiate its direct-selling business opportunity from\n' +
+            '                                            traditional job offerings?',
+        answer: 'QNET offers a business opportunity, not a job, to individuals looking to\n' +
+            '                                            become Independent Representatives (IRs) and start their own sales business.\n' +
+            "                                            Unlike traditional employment, QNET's model empowers IRs to sell diverse\n" +
+            '                                            products, earn commissions based on sales performance, and build their sales\n' +
+            '                                            teams. This entrepreneurial approach allows individuals to take charge of\n' +
+            '                                            their financial success, work independently, and benefit from a supportive\n' +
+            '                                            community that provides training, resources, and incentives for growth.'
+    },
+    {
+        question: 'What is the long-term goal of the "Say NO!" campaign?',
+        answer: 'The long-term goal of the "Say NO!" campaign is to substantially impact the\n' +
+            '                                            fight against human trafficking, illegal migration, and fraudulent job\n' +
+            '                                            offers by raising awareness, fostering collaboration, and empowering\n' +
+            '                                            communities.'
+    }
+]
