@@ -21,7 +21,7 @@ export default function Resources() {
                   alt="Qnet Logo"
                   width={150}
                   height={150}
-                  className="lg:h-28 h-10 object-contain cursor-pointer"
+                  className="lg:h-28 h-20 object-contain cursor-pointer"
                 />
               </Link>
               <Navbar />

@@ -38,7 +38,7 @@ export default function Home() {
                 alt="Qnet Logo"
                 width={150}
                 height={150}
-                className="lg:h-28 h-10 object-contain cursor-pointer"
+                className="lg:h-28 h-20 object-contain cursor-pointer"
               />
             </Link>
             <Navbar />
@@ -104,7 +104,7 @@ export default function Home() {
             Our campaign has a singular goal: To mobilise stakeholder action against job scams, human trafficking and illegal migration in Africa.
           </p>
         </div>
-        <div className="flex h-full">
+        <div className="flex">
           <div className='lg:block hidden'>
             <Masonry
               className="flex mt-5 h-full"
@@ -120,7 +120,7 @@ export default function Home() {
                 alt="Fostering Collaboration"
                 width={150}
                 height={150}
-                className="lg:h-72 h-full w-full mb-5 rounded-xl object-contain"
+                className="lg:h-72 h-full w-full mb-5 rounded-xl lg:object-cover object-contain"
                 loader={({ src }) => src}
               />
               <div className="bg-white mb-5 mx-5 py-16 rounded-xl space-y-6 transition duration-300 p-5">
@@ -149,7 +149,7 @@ export default function Home() {
                 alt="Raising Awareness"
                 width={150}
                 height={150}
-                className="h-72 w-full mb-5 rounded-xl object-cover"
+                className="h-72 w-full mb-5 rounded-xl lg:object-cover object-contain"
                 loader={({ src }) => src}
               />
               <div className="bg-white mb-5 py-16 rounded-xl space-y-6 transition duration-300 p-5">
@@ -173,7 +173,7 @@ export default function Home() {
                   alt="Preventing Exploitation"
                   width={150}
                   height={150}
-                  className="lg:h-72 h-full w-full mb-5 rounded-xl object-contain"
+                  className="lg:h-72 h-full w-full mb-5 rounded-xl lg:object-cover object-contain"
                   loader={({ src }) => src}
                 />
               </div>
@@ -192,9 +192,9 @@ export default function Home() {
               </div>
             </Masonry>
           </div>
-          <div className='lg:hidden grid'>
-            <Cards />
-          </div>
+        </div>
+        <div className='lg:hidden block'>
+          <Cards />
         </div>
         <div className="bg-white rounded-xl my-5 h-full">
           <div className="main-gradient rounded-xl" id='empowering'>
