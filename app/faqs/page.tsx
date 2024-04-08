@@ -62,9 +62,10 @@ export default function Insights() {
                     classNames="slide-down"
                     unmountOnExit
                   >
-                    <p className="py-5 text-gray-500">
-                      {faq.answer}
-                    </p>
+                    <div
+                      className="py-5 text-gray-500"
+                      dangerouslySetInnerHTML={{ __html: faq.answer }}
+                    />
                   </CSSTransition>
                 </div>
               </div>

@@ -457,7 +457,7 @@ export const FAQs = [
             '                                            often in abusive and inhumane conditions. Some victims are coerced into\n' +
             '                                            having their organs removed. Others are forced to carry out criminal\n' +
             '                                            activities such as drug trade, begging, or selling counterfeit goods.  The\n' +
-            '                                                2022 Global Report on Trafficking in Persons shows that 38.7% of\n' +
+            '                                                <a target="_blank" href="https://www.unodc.org/documents/data-and-analysis/glotip/2022/GLOTiP_2022_web.pdf"><span className="hover:text-orange">2022 Global Report</span></a> on Trafficking in Persons shows that 38.7% of\n' +
             '                                            detected\n' +
             '                                            victims in 2020 were trafficked for sexual exploitation, 38.8% were\n' +
             '                                            exploited for forced labour, 10.2% were subjected to forced criminal\n' +
