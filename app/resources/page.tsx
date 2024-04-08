@@ -2,15 +2,13 @@
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Link from "next/link";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Badge } from "@/components/ui/badge";
-import { ArrowRight, SquarePlay } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Resources as ResourcesList } from '@/lib/data';
 
 export default function Resources() {
   return (
-    <main className="mb-52">
+    <main>
       <div className="bg-[url('/img/insights.svg')] h-full w-full bg-no-repeat bg-cover bg-center lg:rounded-b-[4rem]">
         <div className="main-gradient-opacity-70 lg:rounded-b-[4rem] lg:pb-10">
           <div className="container mx-auto">

@@ -1,12 +1,19 @@
-import { Facebook, Instagram, Linkedin, Mail, PhoneCall, X } from "lucide-react";
+import { Facebook, Instagram, Mail, PhoneCall, X } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
     return (
         <>
-            <div className="container mx-auto absolute 2xl:hidden lg:block hidden flex justify-center">
-                <div className="bg-[url('/img/top-footer.png')] h-56 w-full bg-no-repeat bg-contain bg-center -mt-40">
-                </div>
+            <div className="container mx-auto lg:block hidden">
+                <Image
+                    src="/img/top-footer.png"
+                    alt="Top Footer"
+                    layout="responsive"
+                    width={1920}
+                    height={1080}
+                    className="h-56 w-full -mb-10 object-cover object-center"
+                />
             </div>
             <footer className="bg-footer bg-no-repeat w-full lg:rounded-t-[4rem]">
                 <div className="container mx-auto text-white lg:pt-32">

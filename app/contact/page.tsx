@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function ContactUs() {
   return (
-    <main className="mb-52">
+    <main>
       <div className="bg-[url('/img/insights.svg')] h-full w-full bg-no-repeat bg-cover bg-center lg:rounded-b-[4rem]">
         <div className="main-gradient-opacity-70 lg:rounded-b-[4rem] lg:pb-10">
           <div className="container mx-auto">

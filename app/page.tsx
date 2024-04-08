@@ -26,7 +26,7 @@ export default function Home() {
     return array.sort(() => Math.random() - 0.5).slice(0, numObjects);
   }
   return (
-    <main className="mb-52">
+    <main>
       <div
         className="max-lg:bg-[url('/img/bg-video-small.svg')] bg-mainBlue lg:h-full h-96 w-full bg-no-repeat bg-cover bg-center lg:rounded-b-[4rem] lg:pb-10"
       >
