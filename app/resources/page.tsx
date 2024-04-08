@@ -6,7 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, SquarePlay } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Resources as ResourcesList } from '@/lib/fake-backend';
+import { Resources as ResourcesList } from '@/lib/data';
 
 export default function Resources() {
   return (

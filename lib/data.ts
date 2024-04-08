@@ -114,16 +114,6 @@ export const Insights = [
         createdAt: '11/12/2023'
     },
     {
-        title: 'Une campagne de\n' +
-            '                    sensibilisation pour\n' +
-            '                    freiner le fléau',
-        url: 'https://drive.google.com/file/d/1AUyoCmyZXFVa3oVc2FyGcg1Iavka35tn/view?usp=sharing',
-        img: 'https://b3017194.smushcdn.com/3017194/wp-content/uploads/sites/2/2023/12/FB_IMG_17023161618639170.jpg?lossy=2&strip=0&webp=1',
-        newsMedia: 'Le Quotidien',
-        language: 'French',
-        createdAt: '12/12/2023'
-    },
-    {
         title: 'FAUSSES OFFRES\n' +
             '                    D’EMPLOIS L’hameçon\n' +
             '                    des fraudeurs pour la\n' +
@@ -470,7 +460,7 @@ export const FAQs = [
             '                                                2022 Global Report on Trafficking in Persons shows that 38.7% of\n' +
             '                                            detected\n' +
             '                                            victims in 2020 were trafficked for sexual exploitation, 38.8% were\n' +
-            '                                            exploited for forced labour, 10,2% were subjected to forced criminal\n' +
+            '                                            exploited for forced labour, 10.2% were subjected to forced criminal\n' +
             '                                            activity, while 0.9% were trafficked for forced marriage, and smaller\n' +
             '                                            numbers were coerced into organ harvesting and other purposes.'
     },

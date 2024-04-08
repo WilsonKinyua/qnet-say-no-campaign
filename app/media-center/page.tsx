@@ -9,7 +9,7 @@ import { Download } from "lucide-react";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Billboards, Comic } from '@/lib/fake-backend';
+import { Billboards, Comic } from '@/lib/data';
 
 export default function MediaCenter() {
   return (

@@ -1,6 +1,6 @@
 "use client"
 import Navbar from "@/components/navbar";
-import { FAQs } from "@/lib/fake-backend";
+import { FAQs } from "@/lib/data";
 import { CirclePlus, Minus } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";

@@ -19,7 +19,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Cards from '@/components/cards';
-import { Insights } from '@/lib/fake-backend';
+import { Insights } from '@/lib/data';
 
 export default function Home() {
   function getRandomObjects<T>(array: T[], numObjects: number): T[] {
