@@ -13,7 +13,7 @@ import { Billboards, Comic } from '@/lib/data';
 
 export default function MediaCenter() {
   return (
-    <main>
+    <main className='mb-40'>
       <div className="bg-[url('/img/insights.svg')] h-full w-full bg-no-repeat bg-cover bg-center lg:rounded-b-[4rem]">
         <div className="main-gradient-opacity-70 lg:rounded-b-[4rem] lg:pb-10">
           <div className="container mx-auto">
@@ -455,6 +455,19 @@ export default function MediaCenter() {
                   height="280"
                   src="https://www.youtube.com/embed/HxFv6tTkiV4"
                   title="QNET Answers | Is QNET Legal or a Scam??"
+                  frameBorder={0}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className='rounded-xl'
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  width="100%"
+                  height="280"
+                  src="https://www.youtube.com/embed/5CKW5AwoSJQ"
+                  title="Say No to Job Scams | QNET helps a young graduate avoid being scammed"
                   frameBorder={0}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
