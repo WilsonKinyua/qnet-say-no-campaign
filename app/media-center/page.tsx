@@ -41,7 +41,7 @@ export default function MediaCenter() {
           </TabsList>
           <TabsContent value="image">
             <Tabs defaultValue="billboards" className="my-10">
-              <TabsList className="mb-10 space-x-10">
+              <TabsList className="mb-10 lg:space-x-10">
                 <TabsTrigger value="billboards">Billboards</TabsTrigger>
                 <TabsTrigger value="comic-pamphlet">Comic Pamphlet</TabsTrigger>
                 <TabsTrigger value="radio-jingles">Radio Jingles</TabsTrigger>
@@ -404,7 +404,7 @@ export default function MediaCenter() {
                       clickable: true,
                     }}
                     autoplay={{
-                      delay: 10000,
+                      delay: 50000,
                       disableOnInteraction: false,
                     }}
                     breakpoints={{
@@ -427,25 +427,14 @@ export default function MediaCenter() {
                   >
                     {radioJingles.Senegal.map((senegal, i) => (
                       <SwiperSlide key={i} className="mb-14">
-                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
-                          <a download={senegal.url} href={senegal.url}>
-                            <Image
-                              src={"/img/radio-jingles.jpeg"}
-                              alt="picture of saying stop human trafficking"
-                              width={150}
-                              height={150}
-                              className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
-                              loader={({ src }) => src}
-                            />
-                            <div className="p-5 flex justify-between items-center">
-                              <p className="uppercase">
-                                {senegal.name}
-                              </p>
-                              <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
-                                <Download className="text-white" />
-                              </div>
-                            </div>
-                          </a>
+                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl p-2">
+                          <p className="uppercase py-4 lg:h-20 h-full">
+                            {senegal.name}
+                          </p>
+                          <audio controls className='border-2 border-blue-500 rounded-full'>
+                            <source src={senegal.url} type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                          </audio>
                         </div>
                       </SwiperSlide>
                     ))}
@@ -461,7 +450,7 @@ export default function MediaCenter() {
                       clickable: true,
                     }}
                     autoplay={{
-                      delay: 10000,
+                      delay: 50000,
                       disableOnInteraction: false,
                     }}
                     breakpoints={{
@@ -484,25 +473,14 @@ export default function MediaCenter() {
                   >
                     {radioJingles.Burkinafaso.map((burkinafaso, i) => (
                       <SwiperSlide key={i} className="mb-14">
-                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
-                          <a download={burkinafaso.url} href={burkinafaso.url}>
-                            <Image
-                              src={"/img/radio-jingles.jpeg"}
-                              alt="picture of saying stop human trafficking"
-                              width={150}
-                              height={150}
-                              className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
-                              loader={({ src }) => src}
-                            />
-                            <div className="p-5 flex justify-between items-center">
-                              <p className="uppercase">
-                                {burkinafaso.name}
-                              </p>
-                              <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
-                                <Download className="text-white" />
-                              </div>
-                            </div>
-                          </a>
+                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl p-2">
+                          <p className="uppercase py-4 lg:h-20 h-full">
+                            {burkinafaso.name}
+                          </p>
+                          <audio controls className='border-2 border-blue-500 rounded-full'>
+                            <source src={burkinafaso.url} type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                          </audio>
                         </div>
                       </SwiperSlide>
                     ))}
@@ -541,25 +519,14 @@ export default function MediaCenter() {
                   >
                     {radioJingles.Nigeria.map((nigeria, i) => (
                       <SwiperSlide key={i} className="mb-14">
-                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
-                          <a download={nigeria.url} href={nigeria.url}>
-                            <Image
-                              src={"/img/radio-jingles.jpeg"}
-                              alt="picture of saying stop human trafficking"
-                              width={150}
-                              height={150}
-                              className="lg:h-60 h-96 w-full rounded-t-xl object-cover cursor-pointer"
-                              loader={({ src }) => src}
-                            />
-                            <div className="p-5 flex justify-between items-center">
-                              <p className="uppercase">
-                                {nigeria.name}
-                              </p>
-                              <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
-                                <Download className="text-white" />
-                              </div>
-                            </div>
-                          </a>
+                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl p-2">
+                          <p className="uppercase py-4 lg:h-20 h-full">
+                            {nigeria.name}
+                          </p>
+                          <audio controls className='border-2 border-blue-500 rounded-full'>
+                            <source src={nigeria.url} type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                          </audio>
                         </div>
                       </SwiperSlide>
                     ))}

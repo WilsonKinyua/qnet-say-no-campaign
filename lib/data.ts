@@ -580,75 +580,92 @@ export const radioJingles = {
     Senegal: [
         {
             name: "RFM",
-            url: '/videos/RFM.mp4'
+            url: '/videos/RFM.mp4',
+            type: "mp4"
         },
         {
             name: "Teranga FM",
-            url: '/videos/Teranga-FM.mpeg'
+            url: '/videos/Teranga-FM.mpeg',
+            type: "mpeg"
         },
         {
             name: "Teranga FM",
-            url: '/videos/Teranga-FM.mpeg'
+            url: '/videos/Teranga-FM.mpeg',
+            type: "mpeg"
         },
         {
             name: "Zik Thies",
-            url: '/videos/Zik-Thies.mp3'
+            url: '/videos/Zik-Thies.mp3',
+            type: "mp3"
         },
     ],
     Burkinafaso: [
         {
             name: "Voix du Paysan à Ouahigouya",
-            url: '/videos/Voix-du-Paysan-à-Ouahigouya.mpeg'
+            url: '/videos/Voix-du-Paysan-à-Ouahigouya.mpeg',
+            type: "mpeg"
         },
         {
             name: "Diff Spot",
-            url: '/videos/diff_spot.mp3'
+            url: '/videos/diff_spot.mp3',
+            type: "mp3"
         },
         {
             name: "Radio Palabre",
-            url: '/videos/Radio-Palabre.mpeg'
+            url: '/videos/Radio-Palabre.mpeg',
+            type: "mpeg"
         },
         {
             name: "Spot en Dioula - Radio Munyu de Banfora",
-            url: '/videos/Spot-en-Dioula-Radio-Munyu-de-Banfora.mp3'
+            url: '/videos/Spot-en-Dioula-Radio-Munyu-de-Banfora.mp3',
+            type: "mp3"
         },
     ],
     Nigeria: [
         {
             name: "COOL FM - SAY NO RADIO JINGLE",
-            url: '/videos/COOL-FM-SAY-NO-RADIO-JINGLE.mp3'
+            url: '/videos/COOL-FM-SAY-NO-RADIO-JINGLE.mp3',
+            type: "mp3"
         },
         {
             name: "Spot en Dioula - Radio Munyu de Banfora",
-            url: '/videos/Spot-en-Dioula-Radio-Munyu-de-Banfora.mp3'
+            url: '/videos/Spot-en-Dioula-Radio-Munyu-de-Banfora.mp3',
+            type: "mp3"
         },
         {
             name: "NG INFO - ABUJA SAY NO JINGLE",
-            url: '/videos/NG-INFO.mp4'
+            url: '/videos/NG-INFO.mp4',
+            type: "mp4"
         },
         {
             name: "NG INFO - LAGOS SAY NO JINGLE",
-            url: '/videos/NG-INFO-LAGOS.mp4'
+            url: '/videos/NG-INFO-LAGOS.mp4',
+            type: "mp4"
         },
         {
             name: "NG INFO ABUJA - SAY NO JINGLE",
-            url: '/videos/NG-INFO-ABUJA.mp4'
+            url: '/videos/NG-INFO-ABUJA.mp4',
+            type: "mp4"
         },
         {
             name: "NG INFO LAGOS - SAY NO JINGLE FEB 2ND",
-            url: '/videos/NG-INFO-LAGOS.mp3'
+            url: '/videos/NG-INFO-LAGOS.mp3',
+            type: "mp3"
         },
         {
             name: "NG INFO SOCIAL AWARENESS JINGLE FEB 2ND",
-            url: '/videos/NG-INFO-SOCIAL-AWARENESS.mp3'
+            url: '/videos/NG-INFO-SOCIAL-AWARENESS.mp3',
+            type: "mp3"
         },
         {
             name: "NG INFO LAGOS SAY NO JINGLE",
-            url: '/videos/NG-INFO-LAGOS-2.mp3'
+            url: '/videos/NG-INFO-LAGOS-2.mp3',
+            type: "mp3"
         },
         {
             name: "NG INFO LAGOS SAY NO JINGLE FEB 06",
-            url: '/videos/NG INFO- LAGOS SAY NO JINGLE FEB 06.mp3'
+            url: '/videos/NG INFO- LAGOS SAY NO JINGLE FEB 06.mp3',
+            type: "mp3"
         },
     ]
 }
