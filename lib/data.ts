@@ -577,7 +577,78 @@ export const FAQs = [
 ]
 
 export const radioJingles = {
-    Senegal: ['https://drive.google.com/file/d/1DGceTvLvFjccKi2VStTQvxZhrZdYKN38/view', 'https://drive.google.com/file/d/1kDXQ5_OGgLDvIO9ZcjV1pkJf6IvbklA7/view?usp=drive_link', 'https://drive.google.com/file/d/18k1dLmMFn5y0DO04Z47OM9S6rXpjJwM8/view?usp=drive_link', 'https://drive.google.com/file/d/1OLv1h0yBtVDTCYg_xA8XoU4XSXT39ocp/view?usp=drive_link'],
-    Burkinafaso: ['https://drive.google.com/file/d/1fyXpujX7gs1QqdGEMcDlorOZtkhBsqzv/view?usp=drive_link', 'https://drive.google.com/file/d/19JxXzxNhNqxkaigP-V3auoTaepwAQ9QB/view?usp=drive_link', 'https://drive.google.com/file/d/1wVwCuGPQkDc07J_iq9aNfL8XbQGENW9m/view?usp=drive_link', 'https://drive.google.com/file/d/1TeQSeCVT54mjYXonMWG2LXxfjYHK6msz/view?usp=drive_link', 'https://drive.google.com/file/d/1IQZJZPT8cAwsgDxQ3dsJKmLydo0p-S1C/view?usp=drive_link'],
-    Nigeria: ['https://drive.google.com/file/d/1zl3fhmwVqd3jQhej67yKIoVAVTS-RKBU/view?usp=drive_link', 'https://drive.google.com/file/d/12bVuBEe5w0aVykKG6odCcdyz9aFc2-Wr/view?usp=drive_link', 'https://drive.google.com/file/d/16-2uF8iM7o7MzSacK1bOHWUdeS6tRw6f/view?usp=drive_link', 'https://drive.google.com/file/d/1hu1HAiwa99fU078A1N7lILdVhXqwhdRz/view?usp=drive_link', 'https://drive.google.com/file/d/1yWztV6Pg9YuS66LxaEALb_RctVxw2FuO/view?usp=drive_link', 'https://drive.google.com/file/d/1OePFKH9HmzDp6TRRtsu4WbCQv8lNlQc1/view?usp=drive_link', 'https://drive.google.com/file/d/1qlVJwvzTFTZuUtA8GJu2taJg9OKNEexb/view?usp=drive_link', 'https://drive.google.com/file/d/16THsIV0-WQRk_gdGxtm1v5ay15ygFrjl/view?usp=drive_link']
+    Senegal: [
+        {
+            name: "RFM",
+            url: '/videos/RFM.mp4'
+        },
+        {
+            name: "Teranga FM",
+            url: '/videos/Teranga-FM.mpeg'
+        },
+        {
+            name: "Teranga FM",
+            url: '/videos/Teranga-FM.mpeg'
+        },
+        {
+            name: "Zik Thies",
+            url: '/videos/Zik-Thies.mp3'
+        },
+    ],
+    Burkinafaso: [
+        {
+            name: "Voix du Paysan à Ouahigouya",
+            url: '/videos/Voix-du-Paysan-à-Ouahigouya.mpeg'
+        },
+        {
+            name: "Diff Spot",
+            url: '/videos/diff_spot.mp3'
+        },
+        {
+            name: "Radio Palabre",
+            url: '/videos/Radio-Palabre.mpeg'
+        },
+        {
+            name: "Spot en Dioula - Radio Munyu de Banfora",
+            url: '/videos/Spot-en-Dioula-Radio-Munyu-de-Banfora.mp3'
+        },
+    ],
+    Nigeria: [
+        {
+            name: "COOL FM - SAY NO RADIO JINGLE",
+            url: '/videos/COOL-FM-SAY-NO-RADIO-JINGLE.mp3'
+        },
+        {
+            name: "Spot en Dioula - Radio Munyu de Banfora",
+            url: '/videos/Spot-en-Dioula-Radio-Munyu-de-Banfora.mp3'
+        },
+        {
+            name: "NG INFO - ABUJA SAY NO JINGLE",
+            url: '/videos/NG-INFO.mp4'
+        },
+        {
+            name: "NG INFO - LAGOS SAY NO JINGLE",
+            url: '/videos/NG-INFO-LAGOS.mp4'
+        },
+        {
+            name: "NG INFO ABUJA - SAY NO JINGLE",
+            url: '/videos/NG-INFO-ABUJA.mp4'
+        },
+        {
+            name: "NG INFO LAGOS - SAY NO JINGLE FEB 2ND",
+            url: '/videos/NG-INFO-LAGOS.mp3'
+        },
+        {
+            name: "NG INFO SOCIAL AWARENESS JINGLE FEB 2ND",
+            url: '/videos/NG-INFO-SOCIAL-AWARENESS.mp3'
+        },
+        {
+            name: "NG INFO LAGOS SAY NO JINGLE",
+            url: '/videos/NG-INFO-LAGOS-2.mp3'
+        },
+        {
+            name: "NG INFO LAGOS SAY NO JINGLE FEB 06",
+            url: '/videos/NG INFO- LAGOS SAY NO JINGLE FEB 06.mp3'
+        },
+    ]
 }

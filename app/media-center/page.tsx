@@ -428,7 +428,7 @@ export default function MediaCenter() {
                     {radioJingles.Senegal.map((senegal, i) => (
                       <SwiperSlide key={i} className="mb-14">
                         <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
-                          <a target={"_blank"} href={senegal}>
+                          <a download={senegal.url} href={senegal.url}>
                             <Image
                               src={"/img/radio-jingles.jpeg"}
                               alt="picture of saying stop human trafficking"
@@ -438,11 +438,11 @@ export default function MediaCenter() {
                               loader={({ src }) => src}
                             />
                             <div className="p-5 flex justify-between items-center">
-                              <p>
-                                Play
+                              <p className="uppercase">
+                                {senegal.name}
                               </p>
                               <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
-                                <Play className="text-white" />
+                                <Download className="text-white" />
                               </div>
                             </div>
                           </a>
@@ -485,7 +485,7 @@ export default function MediaCenter() {
                     {radioJingles.Burkinafaso.map((burkinafaso, i) => (
                       <SwiperSlide key={i} className="mb-14">
                         <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
-                          <a download={burkinafaso} href={burkinafaso}>
+                          <a download={burkinafaso.url} href={burkinafaso.url}>
                             <Image
                               src={"/img/radio-jingles.jpeg"}
                               alt="picture of saying stop human trafficking"
@@ -495,11 +495,11 @@ export default function MediaCenter() {
                               loader={({ src }) => src}
                             />
                             <div className="p-5 flex justify-between items-center">
-                              <p>
-                                Play
+                              <p className="uppercase">
+                                {burkinafaso.name}
                               </p>
                               <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
-                                <Play className="text-white" />
+                                <Download className="text-white" />
                               </div>
                             </div>
                           </a>
@@ -542,7 +542,7 @@ export default function MediaCenter() {
                     {radioJingles.Nigeria.map((nigeria, i) => (
                       <SwiperSlide key={i} className="mb-14">
                         <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
-                          <a download={nigeria} href={nigeria}>
+                          <a download={nigeria.url} href={nigeria.url}>
                             <Image
                               src={"/img/radio-jingles.jpeg"}
                               alt="picture of saying stop human trafficking"
@@ -552,11 +552,11 @@ export default function MediaCenter() {
                               loader={({ src }) => src}
                             />
                             <div className="p-5 flex justify-between items-center">
-                              <p>
-                                Play
+                              <p className="uppercase">
+                                {nigeria.name}
                               </p>
                               <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
-                                <Play className="text-white" />
+                                <Download className="text-white" />
                               </div>
                             </div>
                           </a>
