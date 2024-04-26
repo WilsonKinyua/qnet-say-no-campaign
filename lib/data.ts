@@ -576,3 +576,9 @@ export const FAQs = [
             '                                            communities.'
     }
 ]
+
+export const radioJingles = {
+    Senegal: ['https://drive.google.com/file/d/1DGceTvLvFjccKi2VStTQvxZhrZdYKN38/view', 'https://drive.google.com/file/d/1kDXQ5_OGgLDvIO9ZcjV1pkJf6IvbklA7/view?usp=drive_link', 'https://drive.google.com/file/d/18k1dLmMFn5y0DO04Z47OM9S6rXpjJwM8/view?usp=drive_link', 'https://drive.google.com/file/d/1OLv1h0yBtVDTCYg_xA8XoU4XSXT39ocp/view?usp=drive_link'],
+    Burkinafaso: ['https://drive.google.com/file/d/1fyXpujX7gs1QqdGEMcDlorOZtkhBsqzv/view?usp=drive_link', 'https://drive.google.com/file/d/19JxXzxNhNqxkaigP-V3auoTaepwAQ9QB/view?usp=drive_link', 'https://drive.google.com/file/d/1wVwCuGPQkDc07J_iq9aNfL8XbQGENW9m/view?usp=drive_link', 'https://drive.google.com/file/d/1TeQSeCVT54mjYXonMWG2LXxfjYHK6msz/view?usp=drive_link', 'https://drive.google.com/file/d/1IQZJZPT8cAwsgDxQ3dsJKmLydo0p-S1C/view?usp=drive_link'],
+    Nigeria: ['https://drive.google.com/file/d/1zl3fhmwVqd3jQhej67yKIoVAVTS-RKBU/view?usp=drive_link', 'https://drive.google.com/file/d/12bVuBEe5w0aVykKG6odCcdyz9aFc2-Wr/view?usp=drive_link', 'https://drive.google.com/file/d/16-2uF8iM7o7MzSacK1bOHWUdeS6tRw6f/view?usp=drive_link', 'https://drive.google.com/file/d/1hu1HAiwa99fU078A1N7lILdVhXqwhdRz/view?usp=drive_link', 'https://drive.google.com/file/d/1yWztV6Pg9YuS66LxaEALb_RctVxw2FuO/view?usp=drive_link', 'https://drive.google.com/file/d/1OePFKH9HmzDp6TRRtsu4WbCQv8lNlQc1/view?usp=drive_link', 'https://drive.google.com/file/d/1qlVJwvzTFTZuUtA8GJu2taJg9OKNEexb/view?usp=drive_link', 'https://drive.google.com/file/d/16THsIV0-WQRk_gdGxtm1v5ay15ygFrjl/view?usp=drive_link']
+}
