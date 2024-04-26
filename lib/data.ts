@@ -417,7 +417,6 @@ export const Billboards = {
     nigeria: [
         'img/LAGOS.jpg',
         'img/Ogun-state.jpeg',
-        'img/Ogun-state-2.jpeg',
         'img/River-state-2.jpeg',
         'img/River-State.jpeg'
     ],
