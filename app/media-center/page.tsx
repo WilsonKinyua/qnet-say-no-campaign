@@ -5,11 +5,11 @@ import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Download } from "lucide-react";
+import { Download, Play } from "lucide-react";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Billboards, Comic } from '@/lib/data';
+import { Billboards, Comic, radioJingles } from '@/lib/data';
 
 export default function MediaCenter() {
   return (
@@ -41,9 +41,10 @@ export default function MediaCenter() {
           </TabsList>
           <TabsContent value="image">
             <Tabs defaultValue="billboards" className="my-10">
-              <TabsList className="mb-10 space-x-10">
+              <TabsList className="mb-10 lg:space-x-10">
                 <TabsTrigger value="billboards">Billboards</TabsTrigger>
                 <TabsTrigger value="comic-pamphlet">Comic Pamphlet</TabsTrigger>
+                <TabsTrigger value="radio-jingles">Radio Jingles</TabsTrigger>
               </TabsList>
               <TabsContent value="billboards">
                 <>
@@ -386,6 +387,146 @@ export default function MediaCenter() {
                               </div>
                             </div>
                           </a>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+                <hr className='border-t-2 border-gray-200 mb-5' />
+              </TabsContent>
+              <TabsContent value="radio-jingles">
+                <div className="lg:flex gap-5">
+                  <p className="lg:w-1/4 w-full mb-10 text-xl font-black">Senegal</p>
+                  <Swiper
+                    slidesPerView={1}
+                    spaceBetween={20}
+                    pagination={{
+                      clickable: true,
+                    }}
+                    autoplay={{
+                      delay: 50000,
+                      disableOnInteraction: false,
+                    }}
+                    breakpoints={{
+                      640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                      },
+                      768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                      1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
+                    }}
+                    navigation={true}
+                    modules={[Navigation, Pagination, Autoplay]}
+                    className="mySwiper lg:w-3/4 w-full"
+                  >
+                    {radioJingles.Senegal.map((senegal, i) => (
+                      <SwiperSlide key={i} className="mb-14">
+                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl p-2">
+                          <p className="uppercase py-4 lg:h-20 h-full">
+                            {senegal.name}
+                          </p>
+                          <audio controls className='border-2 border-blue-500 rounded-full'>
+                            <source src={senegal.url} type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                          </audio>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+                <hr className='border-t-2 border-gray-200 mb-5' />
+                <div className="lg:flex gap-5">
+                  <p className="lg:w-1/4 w-full mb-10 text-xl font-black">Burkinafaso</p>
+                  <Swiper
+                    slidesPerView={1}
+                    spaceBetween={20}
+                    pagination={{
+                      clickable: true,
+                    }}
+                    autoplay={{
+                      delay: 50000,
+                      disableOnInteraction: false,
+                    }}
+                    breakpoints={{
+                      640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                      },
+                      768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                      1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
+                    }}
+                    navigation={true}
+                    modules={[Navigation, Pagination, Autoplay]}
+                    className="mySwiper lg:w-3/4 w-full"
+                  >
+                    {radioJingles.Burkinafaso.map((burkinafaso, i) => (
+                      <SwiperSlide key={i} className="mb-14">
+                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl p-2">
+                          <p className="uppercase py-4 lg:h-20 h-full">
+                            {burkinafaso.name}
+                          </p>
+                          <audio controls className='border-2 border-blue-500 rounded-full'>
+                            <source src={burkinafaso.url} type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                          </audio>
+                        </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+                <hr className='border-t-2 border-gray-200 mb-5' />
+                <div className="lg:flex gap-5">
+                  <p className="lg:w-1/4 w-full mb-10 text-xl font-black">Nigeria</p>
+                  <Swiper
+                    slidesPerView={1}
+                    spaceBetween={20}
+                    pagination={{
+                      clickable: true,
+                    }}
+                    autoplay={{
+                      delay: 10000,
+                      disableOnInteraction: false,
+                    }}
+                    breakpoints={{
+                      640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                      },
+                      768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                      1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
+                    }}
+                    navigation={true}
+                    modules={[Navigation, Pagination, Autoplay]}
+                    className="mySwiper lg:w-3/4 w-full"
+                  >
+                    {radioJingles.Nigeria.map((nigeria, i) => (
+                      <SwiperSlide key={i} className="mb-14">
+                        <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl p-2">
+                          <p className="uppercase py-4 lg:h-20 h-full">
+                            {nigeria.name}
+                          </p>
+                          <audio controls className='border-2 border-blue-500 rounded-full'>
+                            <source src={nigeria.url} type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                          </audio>
                         </div>
                       </SwiperSlide>
                     ))}
