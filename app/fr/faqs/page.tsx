@@ -1,6 +1,6 @@
 "use client"
-import Navbar from "@/components/navbar";
-import { FAQs } from "@/lib/data";
+import Navbar from "@/components/fr-navbar";
+import { FAQsFr } from "@/lib/data";
 import { CirclePlus, Minus } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,19 +26,19 @@ export default function Insights() {
               </Link>
               <Navbar />
             </div>
-            <h1 className="lg:text-6xl text-2xl text-center lg:py-32 py-20 font-black text-white">Tips & FAQs</h1>
+            <h1 className="lg:text-6xl text-2xl text-center lg:py-32 py-20 font-black text-white">Conseils et FAQ</h1>
           </div>
         </div>
       </div>
       <div className="container mx-auto">
         <div className="text-center my-16">
-          <h2 className="text-3xl font-bold text-center my-10 text-orange">Tips & FAQs</h2>
+          <h2 className="text-3xl font-bold text-center my-10 text-orange">Conseils et FAQ</h2>
           <p className="text-gray-600 text-lg">
-            Get to discover more about the “Say NO” Campaign
+            En savoir plus sur la campagne "Disons NON ! "
           </p>
         </div>
         <div className="grid grid-cols-1">
-          {FAQs.map((faq, i) => (
+          {FAQsFr.map((faq, i) => (
             <div key={i} className="p-4 bg-white mb-5 rounded-xl hover:cursor-pointer">
               <div className="flex">
                 <div className="mr-5">

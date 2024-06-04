@@ -1,5 +1,5 @@
 "use client"
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/fr-navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"

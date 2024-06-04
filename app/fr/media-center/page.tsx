@@ -1,7 +1,7 @@
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/fr-navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -83,7 +83,7 @@ export default function MediaCenter() {
                           <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
                             <a download={burkinafaso} href={burkinafaso}>
                               <Image
-                                src={burkinafaso}
+                                src={"/" + burkinafaso}
                                 alt="picture of saying stop human trafficking"
                                 width={150}
                                 height={150}
@@ -92,7 +92,7 @@ export default function MediaCenter() {
                               />
                               <div className="p-5 flex justify-between items-center">
                                 <p>
-                                  Download
+                                  Telécharger
                                 </p>
                                 <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
                                   <Download className="text-white" />
@@ -140,7 +140,7 @@ export default function MediaCenter() {
                           <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
                             <a download={nigeria} href={nigeria}>
                               <Image
-                                src={nigeria}
+                                src={"/" + nigeria}
                                 alt="picture of saying stop human trafficking"
                                 width={150}
                                 height={150}
@@ -149,7 +149,7 @@ export default function MediaCenter() {
                               />
                               <div className="p-5 flex justify-between items-center">
                                 <p>
-                                  Download
+                                  Telécharger
                                 </p>
                                 <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
                                   <Download className="text-white" />
@@ -197,7 +197,7 @@ export default function MediaCenter() {
                           <div className="bg-white hover:shadow-sm transition duration-300 rounded-xl">
                             <a download={senegal} href={senegal}>
                               <Image
-                                src={senegal}
+                                src={"/" + senegal}
                                 alt="picture of saying stop human trafficking"
                                 width={150}
                                 height={150}
@@ -206,7 +206,7 @@ export default function MediaCenter() {
                               />
                               <div className="p-5 flex justify-between items-center">
                                 <p>
-                                  Download
+                                  Telécharger
                                 </p>
                                 <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
                                   <Download className="text-white" />
@@ -266,7 +266,7 @@ export default function MediaCenter() {
                             />
                             <div className="p-5 flex justify-between items-center">
                               <p>
-                                Download
+                                Telécharger
                               </p>
                               <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
                                 <Download className="text-white" />
@@ -323,7 +323,7 @@ export default function MediaCenter() {
                             />
                             <div className="p-5 flex justify-between items-center">
                               <p>
-                                Download
+                                Telécharger
                               </p>
                               <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
                                 <Download className="text-white" />
@@ -380,7 +380,7 @@ export default function MediaCenter() {
                             />
                             <div className="p-5 flex justify-between items-center">
                               <p>
-                                Download
+                                Telécharger
                               </p>
                               <div className="bg-mainBlue text-white hover:bg-orange transition duration-300 p-2 rounded-full">
                                 <Download className="text-white" />

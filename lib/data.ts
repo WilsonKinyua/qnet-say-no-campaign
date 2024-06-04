@@ -575,6 +575,53 @@ export const FAQs = [
     }
 ]
 
+export const FAQsFr = [
+    {
+        question: "Qu'est-ce que la traite des êtres humains?",
+        answer: "La traite des êtres humains, telle que définie dans le Protocole des Nations Unies contre la traite des personnes, implique le recrutement, le transport, le transfert, l'hébergement ou la réception de personnes par divers moyens coercitifs à des fins d'exploitation. La traite des êtres humains est un crime mondial où des personnes sont achetées et vendues à des fins lucratives. Ce crime horrible touche tout le monde, indépendamment du sexe, de l'âge ou des origines. Les trafiquants exploitent les personnes vulnérables, celles qui sont désespérées ou simplement à la recherche d'une vie meilleure, en utilisant la violence, de fausses agences de recrutement et de fausses promesses d'éducation ou d'emplois."
+    },
+    {
+        question: "Quelle est la prévalence de la traite des êtres humains en Afrique et quelles sont les différentes formes d'exploitation impliquées ?",
+        answer: "Selon le Global Slavery Index 2023, l'Afrique a la quatrième plus haute prévalence de la traite des êtres humains parmi les cinq continents du monde. En 2021, environ 7 millions d'hommes, de femmes et d'enfants ont été trafiqués en Afrique, avec une prévalence de 5,2 personnes trafiquées pour mille habitants. Le travail forcé était la forme d'exploitation la plus courante dans la région, touchant près de 3,8 millions d'hommes, de femmes et d'enfants. Le mariage forcé était la deuxième forme d'exploitation la plus courante, avec près de 3 millions de victimes."
+    },
+    {
+        question: "Quels sont les principaux indicateurs de la traite des êtres humains et comment les individus peuvent-ils identifier les cas potentiels ?",
+        answer: "Identifier la traite est la première étape pour l'arrêter. Comprendre les signes à surveiller pourrait aider les personnes les plus vulnérables au sein de votre communauté. Il existe des indicateurs communs de la traite des êtres humains, tels que des individus vivant dans des conditions inhumaines et terribles, travaillant des heures excessivement longues pour peu ou pas de rémunération, montrant des signes de maltraitance physique ou de malnutrition, manquant de contrôle sur leurs documents personnels et manifestant de la peur ou de la réticence à interagir avec les autorités. Reconnaître ces signes est crucial pour identifier les cas potentiels et intervenir efficacement."
+    },
+    {
+        question: "Qu'est-ce qu'une arnaque à l'emploi ?",
+        answer: "Une arnaque à l'emploi est une offre de travail trompeuse et frauduleuse destinée à exploiter les personnes à la recherche d'un emploi légitime en leur soutirant de l'argent, des informations personnelles ou en leur faisant fournir du travail gratuit. Ces arnaques se présentent souvent comme des opportunités d'emploi légitimes, attirant les personnes non méfiantes avec des promesses d'emplois bien rémunérés, de conditions de travail flexibles ou de perspectives d'avancement de carrière."
+    },
+    {
+        question: "Comment puis-je me protéger des arnaques à l'emploi ?",
+        answer: "Reconnaître les signes d'une arnaque à l'emploi est crucial pour se protéger de ces fraudes. Il faut se méfier des offres d'emploi qui promettent des salaires irréalistes, demandent un paiement préalable pour des documents de formation, des vérifications d'antécédents ou d'autres prétendus besoins, présentent des descriptions de poste et des responsabilités vagues, et promettent un emploi immédiat sans processus d'entretien. Pour vous protéger des arnaques à l'emploi, il est important de vérifier la légitimité de l'offre avant de partager des informations personnelles. Si vous soupçonnez qu'une offre d'emploi est une arnaque, ne partagez pas d'informations personnelles et ne faites aucun paiement. Au lieu de cela, signalez l'arnaque aux autorités locales et informez les autres des risques potentiels."
+    },
+    {
+        question: "Quel rôle joue l'éducation dans la prévention et la sensibilisation à la traite des êtres humains et aux arnaques à l'emploi ?",
+        answer: "L'éducation est un outil crucial dans la lutte contre la traite des êtres humains et les arnaques à l'emploi. Elle contribue à accroître la sensibilisation aux tactiques trompeuses utilisées par les trafiquants et les escrocs, en permettant aux individus de reconnaître les signes et de comprendre leurs droits. En renforçant la résilience et en promouvant la vigilance dans les pratiques de recherche d'emploi, l'éducation augmente la capacité des individus et des communautés à résister à la coercition et à l'exploitation. Elle aide également à informer les gens des risques associés aux offres d'emploi frauduleuses, leur permettant ainsi de se protéger contre ce type d'exploitation."
+    },
+    {
+        question: "Comment les individus peuvent-ils contribuer activement à la lutte contre la traite des êtres humains et au soutien des victimes ?",
+        answer: "Les individus peuvent contribuer à la lutte contre la traite des êtres humains en soutenant les organisations et campagnes anti-traite telles que la campagne de sensibilisation Disons NON !, en plaidant pour des changements politiques afin de traiter les problèmes de traite, en signalant les activités suspectes aux autorités, en éduquant les autres sur les risques liés aux offres d'emploi frauduleuses et en promouvant une culture de vigilance contre l'exploitation au sein de leurs communautés."
+    },
+    {
+        question: "Comment puis-je m'impliquer dans la campagne 'Disons NON !' ?",
+        answer: "Vous pouvez vous impliquer dans la campagne Disons NON ! en téléchargeant et en partageant les supports de campagne avec votre communauté, en éduquant les autres sur les risques de la traite des êtres humains et des arnaques à l'emploi, et en signalant les activités suspectes aux autorités locales. Rejoignez-nous pour sensibiliser ! Visitez la section Centre de médias et ressources pour télécharger les supports de campagne et en savoir plus sur les risques des fausses offres d'emploi et de la traite des êtres humains. Votre engagement a un impact significatif."
+    },
+    {
+        question: "Comment QNET contribue-t-il à la lutte contre les fausses offres d'emploi et la traite des êtres humains ?",
+        answer: "QNET soutient activement la lutte contre les fausses offres d'emploi et la traite des êtres humains en soulignant que son opportunité d'affaires n'est pas un emploi, mais une plateforme permettant aux individus de démarrer leur propre entreprise. Cette distinction aide à empêcher les personnes de tomber dans des arnaques promettant des opportunités d'emploi en échange de paiements. De plus, le modèle commercial de vente directe de QNET est transparent et se concentre sur la vente de produits et le gain de commissions basées sur les ventes réelles. Cela garantit que les individus ne sont pas trompés par des systèmes frauduleux exploitant leur désir de trouver un emploi."
+    },
+    {
+        question: "Comment QNET différencie-t-il son opportunité commerciale de vente directe des offres d'emploi traditionnelles ?",
+        answer: "QNET propose une opportunité commerciale, et non un emploi, aux personnes souhaitant devenir des Représentants Indépendants (IR) et démarrer leur propre entreprise de vente. Contrairement à l'emploi traditionnel, le modèle de QNET permet aux IR de vendre une gamme variée de produits, de gagner des commissions basées sur leurs performances de vente et de constituer leurs équipes de vente. Cette approche entrepreneuriale permet aux individus de prendre en main leur succès financier, de travailler de manière indépendante et de bénéficier d'une communauté de soutien qui fournit des formations, des ressources et des incitations à la croissance."
+    },
+    {
+        question: "Quel est l'objectif à long terme de la campagne 'Disons NON !' ?",
+        answer: "L'objectif à long terme de la campagne 'Disons NON !' est d'avoir un impact substantiel sur la lutte contre la traite des êtres humains, la migration illégale et les offres d'emploi frauduleuses en sensibilisant, en favorisant la collaboration et en autonomisant les communautés."
+    }
+]
+
 export const radioJingles = {
     Senegal: [
         {

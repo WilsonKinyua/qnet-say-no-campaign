@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "../../styles/globals.scss";
-import Footer from "@/components/footer";
+import Footer from "@/components/ft-footer";
 import Link from "next/link";
 import Image from "next/image";
+
 const inter = Roboto({ weight: ["400", "500", "700"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <div className="bg-orange py-2 text-white">
+        <div className="bg-orange py-2 text-white sticky top-0 z-50">
           <div className="container mx-auto flex justify-between items-center">
-            <p className="lg:text-base text-xs"><a target="_blank" href="https://wa.me/+233256630005" className="font-black">Report Violations at Whatsapp Hotline: <span className="font-black">+ 233 256630005</span></a></p>
-            <Link href="/">
+            <p className="lg:text-base text-xs"><a target="_blank" href="https://wa.me/+233256630005" className="font-black">Signalez les violations à la ligne d'assistance WhatsApp <span className="font-black">+ 233 256630005</span></a></p>
+            <Link href="/fr">
               <Image
                 src="/img/british.jpg"
                 alt="Qnet Say No Campaign"

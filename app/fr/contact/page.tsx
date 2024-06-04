@@ -1,5 +1,5 @@
 "use client"
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/fr-navbar";
 import { Mail, PhoneCall } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,19 +22,19 @@ export default function ContactUs() {
               </Link>
               <Navbar />
             </div>
-            <h1 className="lg:text-6xl text-2xl text-center lg:py-32 py-20 font-black text-white">Get In Touch</h1>
+            <h1 className="lg:text-6xl text-2xl text-center lg:py-32 py-20 font-black text-white">Prenez contact</h1>
           </div>
         </div>
       </div>
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 my-10 gap-5 items-center">
           <div>
-            <h2 className="text-3xl font-bold my-10 text-gradient">CONTACT US</h2>
+            <h2 className="text-3xl font-bold my-10 text-gradient">CONTACTEZ-NOUS</h2>
             <p>
-              For general inquiries, feedback, or collaboration proposals, please fill out our contact form. We value your input and are eager to explore opportunities for partnership and engagement.
+              Pour des questions d'ordre général, des commentaires ou des propositions de collaboration, veuillez remplir notre formulaire de contact. Nous apprécions votre contribution et sommes impatients d'explorer les possibilités de partenariat et d'engagement.
             </p>
             <p className="my-10">
-              If you know someone who has fallen victim to fake job scams, human trafficking, or illegal migration, send us a message on our WhatsApp hotline or send an email to:
+              Si vous connaissez quelqu'un qui a été victime d'une escroquerie aux faux emplois, de la traite des êtres humains ou de l'immigration clandestine, envoyez-nous un message sur notre ligne d'assistance téléphonique WhatsApp ou envoyez un courriel à :
             </p>
             <div className="lg:flex bg-mainBlue text-white rounded-xl p-4 items-center lg:space-x-5 lg:space-y-0 space-y-5 mt-5">
               <div className="flex items-center space-x-3">
@@ -64,7 +64,7 @@ export default function ContactUs() {
                     className="block tracking-wide text-gray-500 required"
                     htmlFor="grid-first-name"
                   >
-                    Full Name
+                    Nom complet
                   </label>
                   <input
                     className="block outline-none w-full rounded mb-1 placeholder:text-xs placeholder:text-gray-400 text-fern-green"
@@ -79,7 +79,7 @@ export default function ContactUs() {
                     className="block tracking-wide text-gray-500 required"
                     htmlFor="email"
                   >
-                    Email Address
+                    Adresse électronique
                   </label>
                   <input
                     className="block outline-none w-full rounded mb-1 placeholder:text-xs placeholder:text-gray-400 text-fern-green"
@@ -93,7 +93,7 @@ export default function ContactUs() {
                     className="block tracking-wide text-gray-500 required"
                     htmlFor="grid-first-name"
                   >
-                    Phone Number
+                    Numéro de téléphone
                   </label>
                   <input
                     className="block outline-none w-full rounded mb-1 placeholder:text-xs placeholder:text-gray-400 text-fern-green"
@@ -122,7 +122,7 @@ export default function ContactUs() {
                   type="submit"
                   className="w-full bg-orange text-white py-3 rounded-lg hover:bg-opacity-80 transition-all duration-300 ease-in-out"
                 >
-                  Send Message
+                  Envoyer  un message
                 </button>
               </div>
             </form>

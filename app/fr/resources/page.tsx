@@ -1,5 +1,5 @@
 "use client"
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/fr-navbar";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
@@ -30,7 +30,7 @@ export default function Resources() {
       </div>
       <div className="container mx-auto">
         <p className="my-10">
-          Welcome to the Resources section, a vital hub with educational materials dedicated to empowering individuals to safeguard against human trafficking. Explore an array of informative resources curated to raise awareness, educate, and equip you with the knowledge needed to recognize and prevent human trafficking.
+          Bienvenue dans la section Ressources, un hub vital avec des matériaux éducatifs dédiés à autonomiser les individus pour se protéger contre la traite des êtres humains. Explorez une gamme de ressources informatives soigneusement sélectionnées pour sensibiliser, éduquer et vous fournir les connaissances nécessaires pour reconnaître et prévenir la traite des êtres humains.
         </p>
         <div className="grid lg:grid-cols-4 gap-5 my-10">
           {ResourcesList.map((insight, i) => (

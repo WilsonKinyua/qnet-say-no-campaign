@@ -1,7 +1,7 @@
 "use client"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/fr-navbar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Masonry from 'react-masonry-css'
@@ -27,12 +27,10 @@ export default function Home() {
   }
   return (
     <main>
-      <div
-        className="max-lg:bg-[url('/img/bg-video-small.svg')] bg-mainBlue lg:h-full h-96 w-full bg-no-repeat bg-cover bg-center lg:rounded-b-[4rem] lg:pb-10"
-      >
+      <div className="max-lg:bg-[url('/img/bg-video-small.svg')] bg-mainBlue lg:h-full h-96 w-full bg-no-repeat bg-cover bg-center lg:rounded-b-[4rem] lg:pb-10">
         <div className="container mx-auto">
           <div className="flex lg:gap-40 lg:justify-normal justify-between items-center pt-5">
-            <Link href="/">
+            <Link href="/fr">
               <Image
                 src="/img/say-no-campaign-logo_white.svg"
                 alt="Qnet Logo"
@@ -74,12 +72,12 @@ export default function Home() {
         <h2
           className="text-3xl font-bold text-center my-10 text-gradient"
         >
-          Mobilizing Against Human Trafficking
+          Mobilisation contre la traite des êtres humains
         </h2>
         <div className="bg-[url('/img/bg-shape.svg')] bg-no-repeat bg-contain h-full w-full lg:block hidden">
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center py-6">
             <p className="p-5 mx-auto">
-              Our campaign has a singular goal: To <br className='lg:block hidden' /> mobilise stakeholder action against job <br className='lg:block hidden' /> scams, human trafficking and illegal <br className='lg:block hidden' /> migration in Africa.
+              Notre campagne a un objectif unique: <br className='lg:block hidden' /> mobiliser les parties prenantes contre les escroqueries à  <br className='lg:block hidden' /> l'emploi, la traite des êtres humains et <br className='lg:block hidden' /> l'immigration clandestine en Afrique.
             </p>
             <Image
               src="/img/stop.svg"
@@ -101,7 +99,7 @@ export default function Home() {
             loader={({ src }) => src}
           />
           <p className="p-5">
-            Our campaign has a singular goal: To mobilise stakeholder action against job scams, human trafficking and illegal migration in Africa.
+            Notre campagne a un objectif unique : mobiliser les parties prenantes contre les escroqueries à l'emploi, la traite des êtres humains et l'immigration clandestine en Afrique.
           </p>
         </div>
         <div className="flex">
@@ -138,10 +136,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <p className="font-bold text-xl text-mainBlue">
-                  Fostering <br className='lg:block hidden' /> Collaboration
+                  Favoriser <br className='lg:block hidden' /> la collaboration
                 </p>
                 <p>
-                  Uniting stakeholders, communities, and authorities fosters shared responsibility. Our collective front is crucial for combating pervasive issues effectively.
+                  Rassembler les parties prenantes, les communautés et les autorités favorise une responsabilité partagée. Notre front collectif est essentiel pour lutter efficacement contre les problèmes répandus."
                 </p>
               </div>
               <Image
@@ -161,10 +159,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <p className="font-bold text-xl text-mainBlue">
-                  Raising <br className='lg:block hidden' /> Awareness
+                  sensibilisation
                 </p>
                 <p>
-                  We strive to educate individuals about the risks associated with fraudulent job offers, emphasizing the deceptive tactics employed by scammers.
+                  Nous nous efforçons de sensibiliser les personnes aux risques associés aux offres d'emploi frauduleuses, en mettant l'accent sur les tactiques trompeuses employées par les escrocs.
                 </p>
               </div>
               <div className="mx-5">
@@ -184,10 +182,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <p className="font-bold text-xl text-mainBlue">
-                  Preventing <br className='lg:block hidden' /> Exploitation
+                  Prévenir <br className='lg:block hidden' /> l'exploitation
                 </p>
                 <p>
-                  We aim to reduce victims of illegal migration scams, creating a safer environment through vigilance and education for all individuals.
+                  Nous visons à réduire le nombre de victimes d'escroqueries liées à l'immigration clandestine, en créant un environnement plus sûr grâce à la vigilance et à l'éducation de tous les individus.
                 </p>
               </div>
             </Masonry>
@@ -210,20 +208,20 @@ export default function Home() {
                 />
                 <div className="space-y-10 text-white bg-gradient lg:p-16 lg:mr-20 p-5">
                   <h2 className="lg:text-3xl text-xl font-bold my-10">
-                    Empowering Communities, Eradicating Exploitation
+                    Autonomiser les communautés, Éradiquer l'exploitation
                   </h2>
                   <p className="font-medium">
-                    This initiative emerges from a profound understanding of the urgent need to combat the growing trend of fake job scams that exploit the good name of reputable businesses to perpetrate human trafficking and other forms of illegal cross-border activities.
+                    Cette initiative découle d'une compréhension profonde de l'urgence de combattre la tendance croissante des arnaques à l'emploi qui exploitent la bonne réputation des entreprises renommées pour perpétrer la traite des êtres humains et d'autres formes d'activités transfrontalières illégales.
                   </p>
                   <p className="font-medium">
-                    We believe that no one actor can tackle this challenge on their own. This is why the Say NO! campaign is galvanizing the efforts of private, public and multilateral stakeholders to sensitize and support the communities that are most vulnerable to these vices in Africa.
+                    Nous croyons qu'aucun acteur ne peut relever ce défi seul. C'est pourquoi la campagne Dites NON ! Mobilise les efforts des parties prenantes privées, publiques et multilatérales pour sensibiliser et soutenir les communautés les plus vulnérables à ces fléaux en Afrique.
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <h2 className="text-3xl font-bold text-center my-10 text-gradient">
-            Campaign Partners
+            Partenaires de la campagne
           </h2>
           <div className="lg:flex justify-center pb-10">
             <div className="lg:border-t lg:border-r border-orange p-10 lg:w-1/3">
@@ -242,7 +240,7 @@ export default function Home() {
               </div>
             </div>
             <div className="border-t border-orange p-10 lg:w-1/3">
-              <h4 className="text-gray-400 mb-5 text-sm">Supported by:</h4>
+              <h4 className="text-gray-400 mb-5 text-sm">Appuyé par:</h4>
               <div className="flex gap-2 items-center">
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <Image
@@ -281,7 +279,7 @@ export default function Home() {
         <div className="mt-20">
           <div className="flex justify-between mb-10">
             <h2 className="lg:text-2xl font-bold text-gradient">
-              Insights & Updates
+              Actualités et informations
             </h2>
             <Link href="/insights" className="underline hover:text-orange">
               More Updates <ArrowRight className="h-4 w-4 inline-block" />
@@ -346,7 +344,7 @@ export default function Home() {
                         <Button
                           className="rounded-full bg-mainBlue text-white hover:bg-orange transition duration-300"
                         >
-                          Read More <ArrowRight className="h-4 w-4 inline-block" />
+                          En savoir plus <ArrowRight className="h-4 w-4 inline-block" />
                         </Button>
                       </div>
                     </a>
