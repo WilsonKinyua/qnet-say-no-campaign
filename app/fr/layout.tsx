@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="bg-orange py-2 text-white sticky top-0 z-50">
           <div className="container mx-auto flex justify-between items-center">
-            <p className="lg:text-base text-xs"><a target="_blank" href="https://wa.me/+233256630005" className="font-black">Signalez les violations à la ligne d'assistance WhatsApp <span className="font-black">+ 233 256630005</span></a></p>
+            <p className="lg:text-base text-xs"><a target="_blank" href="https://wa.me/+233256630005" className="font-black">Signalez les violations à la ligne d&apos;assistance WhatsApp <span className="font-black">+ 233 256630005</span></a></p>
             <Link href="/fr">
               <Image
                 src="/img/british.jpg"

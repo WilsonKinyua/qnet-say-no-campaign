@@ -77,7 +77,7 @@ export default function Home() {
         <div className="bg-[url('/img/bg-shape.svg')] bg-no-repeat bg-contain h-full w-full lg:block hidden">
           <div className="grid lg:grid-cols-2 grid-cols-1 items-center py-6">
             <p className="p-5 mx-auto">
-              Notre campagne a un objectif unique: <br className='lg:block hidden' /> mobiliser les parties prenantes contre les escroqueries à  <br className='lg:block hidden' /> l'emploi, la traite des êtres humains et <br className='lg:block hidden' /> l'immigration clandestine en Afrique.
+              Notre campagne a un objectif unique: <br className='lg:block hidden' /> mobiliser les parties prenantes contre les escroqueries à  <br className='lg:block hidden' /> l&apos;emploi, la traite des êtres humains et <br className='lg:block hidden' /> l&apos;immigration clandestine en Afrique.
             </p>
             <Image
               src="/img/stop.svg"
@@ -99,7 +99,7 @@ export default function Home() {
             loader={({ src }) => src}
           />
           <p className="p-5">
-            Notre campagne a un objectif unique : mobiliser les parties prenantes contre les escroqueries à l'emploi, la traite des êtres humains et l'immigration clandestine en Afrique.
+            Notre campagne a un objectif unique : mobiliser les parties prenantes contre les escroqueries à l&apos;emploi, la traite des êtres humains et l&apos;immigration clandestine en Afrique.
           </p>
         </div>
         <div className="flex">
@@ -139,7 +139,7 @@ export default function Home() {
                   Favoriser <br className='lg:block hidden' /> la collaboration
                 </p>
                 <p>
-                  Rassembler les parties prenantes, les communautés et les autorités favorise une responsabilité partagée. Notre front collectif est essentiel pour lutter efficacement contre les problèmes répandus."
+                  Rassembler les parties prenantes, les communautés et les autorités favorise une responsabilité partagée. Notre front collectif est essentiel pour lutter efficacement contre les problèmes répandus.&quot;
                 </p>
               </div>
               <Image
@@ -162,7 +162,7 @@ export default function Home() {
                   sensibilisation
                 </p>
                 <p>
-                  Nous nous efforçons de sensibiliser les personnes aux risques associés aux offres d'emploi frauduleuses, en mettant l'accent sur les tactiques trompeuses employées par les escrocs.
+                  Nous nous efforçons de sensibiliser les personnes aux risques associés aux offres d&apos;emploi frauduleuses, en mettant l&apos;accent sur les tactiques trompeuses employées par les escrocs.
                 </p>
               </div>
               <div className="mx-5">
@@ -182,10 +182,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <p className="font-bold text-xl text-mainBlue">
-                  Prévenir <br className='lg:block hidden' /> l'exploitation
+                  Prévenir <br className='lg:block hidden' /> l&apos;exploitation
                 </p>
                 <p>
-                  Nous visons à réduire le nombre de victimes d'escroqueries liées à l'immigration clandestine, en créant un environnement plus sûr grâce à la vigilance et à l'éducation de tous les individus.
+                  Nous visons à réduire le nombre de victimes d&apos;escroqueries liées à l&apos;immigration clandestine, en créant un environnement plus sûr grâce à la vigilance et à l&apos;éducation de tous les individus.
                 </p>
               </div>
             </Masonry>
@@ -208,13 +208,13 @@ export default function Home() {
                 />
                 <div className="space-y-10 text-white bg-gradient lg:p-16 lg:mr-20 p-5">
                   <h2 className="lg:text-3xl text-xl font-bold my-10">
-                    Autonomiser les communautés, Éradiquer l'exploitation
+                    Autonomiser les communautés, Éradiquer l&apos;exploitation
                   </h2>
                   <p className="font-medium">
-                    Cette initiative découle d'une compréhension profonde de l'urgence de combattre la tendance croissante des arnaques à l'emploi qui exploitent la bonne réputation des entreprises renommées pour perpétrer la traite des êtres humains et d'autres formes d'activités transfrontalières illégales.
+                    Cette initiative découle d&apos;une compréhension profonde de l&apos;urgence de combattre la tendance croissante des arnaques à l&apos;emploi qui exploitent la bonne réputation des entreprises renommées pour perpétrer la traite des êtres humains et d&apos;autres formes d&apos;activités transfrontalières illégales.
                   </p>
                   <p className="font-medium">
-                    Nous croyons qu'aucun acteur ne peut relever ce défi seul. C'est pourquoi la campagne Dites NON ! Mobilise les efforts des parties prenantes privées, publiques et multilatérales pour sensibiliser et soutenir les communautés les plus vulnérables à ces fléaux en Afrique.
+                    Nous croyons qu&apos;aucun acteur ne peut relever ce défi seul. C&apos;est pourquoi la campagne Dites NON ! Mobilise les efforts des parties prenantes privées, publiques et multilatérales pour sensibiliser et soutenir les communautés les plus vulnérables à ces fléaux en Afrique.
                   </p>
                 </div>
               </div>

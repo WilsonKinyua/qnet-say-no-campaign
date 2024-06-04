@@ -34,7 +34,7 @@ export default function Insights() {
         <div className="text-center my-16">
           <h2 className="text-3xl font-bold text-center my-10 text-orange">Conseils et FAQ</h2>
           <p className="text-gray-600 text-lg">
-            En savoir plus sur la campagne "Disons NON ! "
+            En savoir plus sur la campagne &quot;Disons NON !&quot;
           </p>
         </div>
         <div className="grid grid-cols-1">
