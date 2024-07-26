@@ -29,21 +29,21 @@ export default function MediaCenter() {
               </Link>
               <Navbar />
             </div>
-            <h1 className="lg:text-6xl text-2xl text-center lg:py-32 py-20 font-black text-white">Media Centre</h1>
+            <h1 className="lg:text-6xl text-2xl text-center lg:py-32 py-20 font-black text-white">Espace Media</h1>
           </div>
         </div>
       </div>
       <div className="container mx-auto">
         <Tabs defaultValue="image" className="-mt-14">
           <TabsList className="space-x-10">
-            <TabsTrigger value="image">Image Downloads</TabsTrigger>
-            <TabsTrigger value="videos">Videos</TabsTrigger>
+            <TabsTrigger value="image">Téléchargement d'images</TabsTrigger>
+            <TabsTrigger value="videos">Vidéos</TabsTrigger>
           </TabsList>
           <TabsContent value="image">
             <Tabs defaultValue="billboards" className="my-10">
               <TabsList className="mb-10 lg:space-x-10">
-                <TabsTrigger value="billboards">Billboards</TabsTrigger>
-                <TabsTrigger value="comic-pamphlet">Comic Pamphlet</TabsTrigger>
+                <TabsTrigger value="billboards">Panneaux d'affichage</TabsTrigger>
+                <TabsTrigger value="comic-pamphlet">Brochure bande dessinée</TabsTrigger>
                 <TabsTrigger value="radio-jingles">Radio Jingles</TabsTrigger>
               </TabsList>
               <TabsContent value="billboards">

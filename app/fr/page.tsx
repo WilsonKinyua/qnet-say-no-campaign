@@ -225,7 +225,7 @@ export default function Home() {
           </h2>
           <div className="lg:flex justify-center pb-10">
             <div className="lg:border-t lg:border-r border-orange p-10 lg:w-1/3">
-              <h4 className="text-gray-400 mb-5 text-sm">Public service campaign by:</h4>
+              <h4 className="text-gray-400 mb-5 text-sm">Partenaires de la campagne:</h4>
               <div className="flex gap-2 items-center">
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <Image

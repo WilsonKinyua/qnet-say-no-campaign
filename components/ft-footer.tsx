@@ -20,7 +20,7 @@ export default function Footer() {
                     <hr className="my-2 border-0 border-t-[0.01rem] border-gray-300" />
                     <div className="text-center py-8">
                         <p className="lg:px-80">
-                            Si vous connaissez quelqu&apos;un qui a été victime d&apos;arnaques à l&apos;emploi, de traite des êtres humains ou de migration illégale, contactez-nous :
+                            Si vous connaissez quelqu'un qui a été victime d'arnaques à l'emploi, de traite des êtres humains ou de migration illégale, contactez-nous :
                         </p>
                         <div className="lg:flex justify-center items-center lg:space-x-5 lg:space-y-0 space-y-5 mt-5">
                             <div className="flex items-center space-x-3">
@@ -41,22 +41,22 @@ export default function Footer() {
                     <div className="lg:flex justify-between items-center py-5">
                         <ul className="lg:flex grid grid-cols-2 lg:flex-wrap lg:space-x-5">
                             <li>
-                                <Link href="/#empowering" className="hover:text-orange transition duration-300">About Us</Link>
+                                <Link href="/fr/#empowering" className="hover:text-orange transition duration-300">À propos de nous</Link>
                             </li>
                             <li>
-                                <Link href="/faqs" className="hover:text-orange transition duration-300">FAQs</Link>
+                                <Link href="/fr/faqs" className="hover:text-orange transition duration-300">FAQs</Link>
                             </li>
                             <li>
-                                <Link href="/media-center" className="hover:text-orange transition duration-300">Media Centre</Link>
+                                <Link href="/fr/media-center" className="hover:text-orange transition duration-300">Galerie</Link>
                             </li>
                             <li>
-                                <Link href="/resources" className="hover:text-orange transition duration-300">Resources</Link>
+                                <Link href="/fr/resources" className="hover:text-orange transition duration-300">Ressources</Link>
                             </li>
                             <li>
-                                <Link href="/insights" className="hover:text-orange transition duration-300">NewsRoom</Link>
+                                <Link href="/fr/insights" className="hover:text-orange transition duration-300">Publications</Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="hover:text-orange transition duration-300">Contact Us</Link>
+                                <Link href="/fr/contact" className="hover:text-orange transition duration-300">Contactez-nous</Link>
                             </li>
                         </ul>
                         <div className="flex items-center space-x-3 lg:mt-0 mt-5">
@@ -74,14 +74,6 @@ export default function Footer() {
                     <hr className="my-2 border-0 border-t-[0.01rem] border-gray-300" />
                     <div className="text-center uppercase py-5">
                         <p>&copy; {new Date().getFullYear()} <Link href="/" className="hover:text-orange transition duration-300" rel="noopener noreferrer">QNET&apos;s Say NO! Campaign</Link>. All Rights Reserved</p>
-                        {/* <ul className="lg:flex hidden">
-                            <li className="lg:border-r border-white mr-5 pr-5">
-                                <Link href="" className="hover:text-orange transition duration-300">Terms & Conditions</Link>
-                            </li>
-                            <li>
-                                <Link href="" className="hover:text-orange transition duration-300">Privacy Statement & Disclaimer</Link>
-                            </li>
-                        </ul> */}
                     </div>
                 </div>
             </footer>

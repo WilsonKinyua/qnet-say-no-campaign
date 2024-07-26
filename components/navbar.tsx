@@ -153,14 +153,6 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                             </ul>
-                            {/* <div className="mx-5">
-                                <Button
-                                    className="w-full main-gradient rounded-full py-3 px-5"
-                                    asChild
-                                >
-                                    <Link href="/">Get Involved</Link>
-                                </Button>
-                            </div> */}
                         </SheetDescription>
                     </SheetHeader>
                 </SheetContent>

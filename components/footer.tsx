@@ -74,14 +74,6 @@ export default function Footer() {
                     <hr className="my-2 border-0 border-t-[0.01rem] border-gray-300" />
                     <div className="text-center uppercase py-5">
                         <p>&copy; {new Date().getFullYear()} <Link href="/" className="hover:text-orange transition duration-300" rel="noopener noreferrer">QNET&apos;s Say NO! Campaign</Link>. All Rights Reserved</p>
-                        {/* <ul className="lg:flex hidden">
-                            <li className="lg:border-r border-white mr-5 pr-5">
-                                <Link href="" className="hover:text-orange transition duration-300">Terms & Conditions</Link>
-                            </li>
-                            <li>
-                                <Link href="" className="hover:text-orange transition duration-300">Privacy Statement & Disclaimer</Link>
-                            </li>
-                        </ul> */}
                     </div>
                 </div>
             </footer>
