@@ -52,7 +52,7 @@ export default function Resources() {
                   <Button
                     className="rounded-full bg-mainBlue text-white hover:bg-orange transition duration-300"
                   >
-                    Read More <ArrowRight className="h-4 w-4 inline-block" />
+                    En savoir plus <ArrowRight className="h-4 w-4 inline-block" />
                   </Button>
                 </div>
               </a>
