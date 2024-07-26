@@ -36,13 +36,13 @@ export default function MediaCenter() {
       <div className="container mx-auto">
         <Tabs defaultValue="image" className="-mt-14">
           <TabsList className="space-x-10">
-            <TabsTrigger value="image">Téléchargement d'images</TabsTrigger>
+            <TabsTrigger value="image">Téléchargement d&#39;images</TabsTrigger>
             <TabsTrigger value="videos">Vidéos</TabsTrigger>
           </TabsList>
           <TabsContent value="image">
             <Tabs defaultValue="billboards" className="my-10">
               <TabsList className="mb-10 lg:space-x-10">
-                <TabsTrigger value="billboards">Panneaux d'affichage</TabsTrigger>
+                <TabsTrigger value="billboards">Panneaux d&#39;affichage</TabsTrigger>
                 <TabsTrigger value="comic-pamphlet">Brochure bande dessinée</TabsTrigger>
                 <TabsTrigger value="radio-jingles">Radio Jingles</TabsTrigger>
               </TabsList>

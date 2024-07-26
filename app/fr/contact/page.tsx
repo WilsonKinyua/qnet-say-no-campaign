@@ -34,7 +34,7 @@ export default function ContactUs() {
               Pour des questions d&lsquo;ordre général, des commentaires ou des propositions de collaboration, veuillez remplir notre formulaire de contact. Nous apprécions votre contribution et sommes impatients d&apos;explorer les possibilités de partenariat et d&apos;engagement.
             </p>
             <p className="my-10">
-              Si vous connaissez quelqu'un qui a été victime d'arnaques à l'emploi, de traite des êtres humains ou de migration illégale, contactez-nous :
+              Si vous connaissez quelqu&#39;un qui a été victime d&#39;arnaques à l&#39;emploi, de traite des êtres humains ou de migration illégale, contactez-nous:
             </p>
             <div className="lg:flex bg-mainBlue text-white rounded-xl p-4 items-center lg:space-x-5 lg:space-y-0 space-y-5 mt-5">
               <div className="flex items-center space-x-3">
