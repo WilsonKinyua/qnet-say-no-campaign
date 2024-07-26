@@ -26,7 +26,7 @@ export default function Insights() {
               </Link>
               <Navbar />
             </div>
-            <h1 className="lg:text-6xl text-2xl text-center lg:py-32 py-20 font-black text-white">Insight & Updates</h1>
+            <h1 className="lg:text-6xl text-2xl text-center lg:py-32 py-20 font-black text-white">Actualités et informations</h1>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ export default function Insights() {
                       <Button
                         className="rounded-full bg-mainBlue text-white hover:bg-orange transition duration-300"
                       >
-                        Read More <ArrowRight className="h-4 w-4 inline-block" />
+                        En savoir plus <ArrowRight className="h-4 w-4 inline-block" />
                       </Button>
                     </div>
                   </a>
@@ -88,7 +88,7 @@ export default function Insights() {
                         alt={insight.title}
                         width={150}
                         height={150}
-                         className="lg:h-60 h-52 w-full rounded-t-xl lg:object-cover object-contain cursor-pointer"
+                        className="lg:h-60 h-52 w-full rounded-t-xl lg:object-cover object-contain cursor-pointer"
                         loader={({ src }) => src}
                       />
                       <div className="p-5">
@@ -109,7 +109,7 @@ export default function Insights() {
                         <Button
                           className="rounded-full bg-mainBlue text-white hover:bg-orange transition duration-300"
                         >
-                          Read More <ArrowRight className="h-4 w-4 inline-block" />
+                          En savoir plus <ArrowRight className="h-4 w-4 inline-block" />
                         </Button>
                       </div>
                     </a>
@@ -129,7 +129,7 @@ export default function Insights() {
                         alt={insight.title}
                         width={150}
                         height={150}
-                         className="lg:h-60 h-52 w-full rounded-t-xl lg:object-cover object-contain cursor-pointer"
+                        className="lg:h-60 h-52 w-full rounded-t-xl lg:object-cover object-contain cursor-pointer"
                         loader={({ src }) => src}
                       />
                       <div className="p-5">
@@ -150,7 +150,7 @@ export default function Insights() {
                         <Button
                           className="rounded-full bg-mainBlue text-white hover:bg-orange transition duration-300"
                         >
-                          Read More <ArrowRight className="h-4 w-4 inline-block" />
+                          En savoir plus <ArrowRight className="h-4 w-4 inline-block" />
                         </Button>
                       </div>
                     </a>
