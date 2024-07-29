@@ -35,7 +35,7 @@ export default function RootLayout({
               <DropdownMenuContent>
                 <DropdownMenuLabel><Link href="/">English</Link></DropdownMenuLabel>
                 <DropdownMenuSeparator />
-                <DropdownMenuItem><Link href="/fr">French</Link></DropdownMenuItem>
+                <DropdownMenuItem><Link href="/fr">Français</Link></DropdownMenuItem>
                 <DropdownMenuSeparator />
               </DropdownMenuContent>
             </DropdownMenu>

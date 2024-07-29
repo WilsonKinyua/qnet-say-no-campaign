@@ -35,7 +35,7 @@ export default function Insights() {
           <TabsList className="mb-10 space-x-10 flex justify-center">
             <TabsTrigger value="all">All</TabsTrigger>
             <TabsTrigger value="english">English</TabsTrigger>
-            <TabsTrigger value="french">French</TabsTrigger>
+            <TabsTrigger value="french">Français</TabsTrigger>
           </TabsList>
           <TabsContent value="all" className="border border-gray-300 p-5 rounded-xl">
             <div className="grid lg:grid-cols-4 grid-cols-1 gap-5">
@@ -59,7 +59,7 @@ export default function Insights() {
                         <SquarePlay
                           className="h-4 w-4"
                         />
-                        {insight.language}
+                        {insight.language === "French" ? "Français" : insight.language}
                       </Badge>
                       <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300 h-32">
                         {insight.title}
@@ -100,7 +100,7 @@ export default function Insights() {
                           <SquarePlay
                             className="h-4 w-4"
                           />
-                          {insight.language}
+                          {insight.language === "French" ? "Français" : insight.language}
                         </Badge>
                         <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300 h-32">
                           {insight.title}
@@ -141,7 +141,7 @@ export default function Insights() {
                           <SquarePlay
                             className="h-4 w-4"
                           />
-                          {insight.language}
+                          {insight.language === "French" ? "Français" : insight.language}
                         </Badge>
                         <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300 h-32">
                           {insight.title}
