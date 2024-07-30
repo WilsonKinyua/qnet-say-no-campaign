@@ -59,7 +59,7 @@ export default function Insights() {
                         <SquarePlay
                           className="h-4 w-4"
                         />
-                        {insight.language === "French" ? "Français" : insight.language}
+                        {insight.language === "French" ? "Français" : "Anglais"}
                       </Badge>
                       <h4 className="text-base font-semibold py-3 hover:text-orange transition duration-300 h-32">
                         {insight.title}
