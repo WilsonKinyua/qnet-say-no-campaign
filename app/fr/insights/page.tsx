@@ -33,8 +33,8 @@ export default function Insights() {
       <div className="container mx-auto">
         <Tabs defaultValue="all" className="my-10">
           <TabsList className="mb-10 space-x-10 flex justify-center">
-            <TabsTrigger value="all">All</TabsTrigger>
-            <TabsTrigger value="english">English</TabsTrigger>
+            <TabsTrigger value="all">Toutes</TabsTrigger>
+            <TabsTrigger value="english">Anglais</TabsTrigger>
             <TabsTrigger value="french">Français</TabsTrigger>
           </TabsList>
           <TabsContent value="all" className="border border-gray-300 p-5 rounded-xl">
